@@ -1,0 +1,229 @@
+{
+  "_readme": "Independent ground truth for the 3 random-forest/rule disagreements, hand-checked against raw element counts (grep note/measure/identifier/classification/perfMedium) rather than re-running detectEncodingStyle. Used by ml_style.py --hand-labels to report accuracy against labels the classifier was never trained or folded against, closing the circularity gap noted in the draft report (5.8).",
+  "labels": {
+    "mei50_Telemann_Concert.mei": {
+      "label": "notation",
+      "evidence": "6320 <note> elements across 230 measures vs only 5 metadata elements (identifier/classification/perfMedium). Overwhelmingly a notated score with a thin bibliographic wrapper; a human cataloguer would call this notation-style, not catalogue-style.",
+      "rule_folded_label": "catalogue",
+      "model_prediction": "notation"
+    },
+    "mei51_Schubert_Erlkoenig.mei": {
+      "label": "notation",
+      "evidence": "138 <note> elements across 30 measures vs 3 metadata elements. Same pattern as Telemann: a full song setting with minimal header, not a catalogue entry.",
+      "rule_folded_label": "catalogue",
+      "model_prediction": "notation"
+    },
+    "SE_26_Debussy_GolliwoggsCakewalk.mei": {
+      "label": "notation",
+      "evidence": "1374 <note> elements across 129 measures vs 9 metadata elements including a populated workDesc/work block. Genuinely hybrid in structure (both rich notation and a real work record), but by volume this is a notated score, not a bibliographic record.",
+      "rule_folded_label": "catalogue",
+      "model_prediction": "notation"
+    },
+    "freidi_core_mov9.xml": {
+      "label": "notation",
+      "evidence": "6284 <note> elements across 199 measures, no workList and only scattered work-adjacent text; one movement of a full opera encoding, overwhelmingly notation by volume despite the rule folding it to catalogue.",
+      "rule_folded_label": "catalogue",
+      "model_prediction": "notation"
+    },
+    "CRIM_Mass_0017_5.mei": {
+      "label": "notation",
+      "evidence": "1219 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Mass_0010_5.mei": {
+      "label": "notation",
+      "evidence": "1128 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Mass_0024_5.mei": {
+      "label": "notation",
+      "evidence": "1497 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "mei51_Handel_Concerto_grosso.mei": {
+      "label": "notation",
+      "evidence": "219 notation elements (note+measure) vs 4 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.98 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "mei40_Kirnberger_Fugue_for_BrassQuartet_Eb-major.mei": {
+      "label": "notation",
+      "evidence": "757 notation elements (note+measure) vs 6 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.99 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Mass_0032_5.mei": {
+      "label": "notation",
+      "evidence": "612 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "mei50_Mozart_Fugue_g-minor_KV401.mei": {
+      "label": "notation",
+      "evidence": "1670 notation elements (note+measure) vs 7 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Mass_0025_4.mei": {
+      "label": "notation",
+      "evidence": "1558 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "cnw0332.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 23 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Mass_0042_1.mei": {
+      "label": "notation",
+      "evidence": "432 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.99 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "mei40_Altenburg_Ein_feste_Burg.mei": {
+      "label": "notation",
+      "evidence": "852 notation elements (note+measure) vs 6 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.99 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "cnw0296.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 15 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "mei30_Telemann_Suite.mei": {
+      "label": "notation",
+      "evidence": "912 notation elements (note+measure) vs 8 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.99 is unambiguous.",
+      "rule_folded_label": "notation"
+    },
+    "mei51_Altenburg_Ein_feste_Burg.mei": {
+      "label": "notation",
+      "evidence": "852 notation elements (note+measure) vs 6 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.99 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "cnw0159.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 26 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Mass_0044_1.mei": {
+      "label": "notation",
+      "evidence": "1224 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "cnw0378.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 26 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "cnw0012.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 76 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Mass_0002_3.mei": {
+      "label": "notation",
+      "evidence": "2206 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "bw_Op.120_old.xml": {
+      "label": "notation",
+      "evidence": "18686 notation elements (note+measure) vs 0 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "notation"
+    },
+    "cnw0295.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 36 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "mei30_Vivaldi_multiple_mdivs.mei": {
+      "label": "notation",
+      "evidence": "1634 notation elements (note+measure) vs 6 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "notation"
+    },
+    "CRIM_Mass_0014_4.mei": {
+      "label": "notation",
+      "evidence": "1231 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "cnw0027.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 538 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "mei30_Gluck_CheFaroSenzaEuridice.mei": {
+      "label": "notation",
+      "evidence": "428 notation elements (note+measure) vs 10 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.98 is unambiguous.",
+      "rule_folded_label": "notation"
+    },
+    "cnw0347.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 28 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Mass_0010_4.mei": {
+      "label": "notation",
+      "evidence": "1218 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Model_0010.mei": {
+      "label": "notation",
+      "evidence": "2987 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "22228421720417.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 35 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "cnw0261.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 33 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "cnw0245.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 38 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Mass_0010_1.mei": {
+      "label": "notation",
+      "evidence": "406 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.99 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "cnw0033.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 60 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "cnw0210.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 28 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "SE_52_McFerrin_Dont_worry.mei": {
+      "label": "notation",
+      "evidence": "197 notation elements (note+measure) vs 7 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.97 is unambiguous.",
+      "rule_folded_label": "notation"
+    },
+    "cnw0149.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 9 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "d6f46070-85df-4dda-b1f2-4e90530cf511.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 89 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "mei30_Das_Veilchen_artic_element.mei": {
+      "label": "notation",
+      "evidence": "284 notation elements (note+measure) vs 1 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "notation"
+    },
+    "cnw0407.xml": {
+      "label": "catalogue",
+      "evidence": "0 notation elements (note+measure) vs 17 bibliographic elements (identifier/classification/perfMedium/workList); ratio 0.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    },
+    "CRIM_Mass_0020_3.mei": {
+      "label": "notation",
+      "evidence": "2919 notation elements (note+measure) vs 3 bibliographic elements (identifier/classification/perfMedium/workList); ratio 1.00 is unambiguous.",
+      "rule_folded_label": "catalogue"
+    }
+  }
+}

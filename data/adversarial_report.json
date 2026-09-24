@@ -1,0 +1,70 @@
+{
+  "all_passed": true,
+  "cases": {
+    "malformed_truncated": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "status is skipped",
+          "ok": true,
+          "detail": "skipped"
+        },
+        {
+          "name": "no row inserted",
+          "ok": true,
+          "detail": "work count=0"
+        }
+      ]
+    },
+    "no_namespace": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "does not crash, status ok",
+          "ok": true,
+          "detail": "ok"
+        },
+        {
+          "name": "degrades to filename title, not a crash",
+          "ok": true,
+          "detail": "work count=1"
+        },
+        {
+          "name": "no composer found, warned",
+          "ok": true,
+          "detail": "[\"no composer element found, stored as 'Unknown'\", 'no title element found, filename used as title', 'no catalogue number (mei:identifier) found', 'no genre classification found', 'no composition date found', 'no instrumentation found (perfMedium/perfRes/staffDef all empty)']"
+        }
+      ]
+    },
+    "ambiguous_year": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "free-text date does not crash",
+          "ok": true,
+          "detail": "ok"
+        },
+        {
+          "name": "non-numeric date parses to NULL, not a garbage value",
+          "ok": true,
+          "detail": "year_composed=None"
+        }
+      ]
+    },
+    "duplicate_catalogue_number": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "same composer+catalogue_number replaces, not duplicates",
+          "ok": true,
+          "detail": "1 rows found"
+        },
+        {
+          "name": "the later file wins",
+          "ok": true,
+          "detail": "Duplicate Catalogue Number Test B (should replace A)"
+        }
+      ]
+    }
+  }
+}

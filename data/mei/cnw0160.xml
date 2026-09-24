@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_idm140209821098320">
+   <meiHead xml:id="meiHead_N20299">
+      <fileDesc xml:id="fileDesc_N2029A">
+         <titleStmt xml:id="titleStmt_N2029B">
+            <title xml:id="title_N2029C" xml:lang="da">Det koster ej for megen Strid</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_N2029F">
+            <respStmt xml:id="respStmt_5c30a487">
+               <resp xml:id="resp_N202A2">Publisher</resp>
+               <corpName xml:id="corpName_f0d76fc7">
+                  <abbr xml:id="abbr_N202A6">DCM</abbr>
+                  <expan xml:id="idm11">Danish Centre for Music Editing</expan>
+                  <address xml:id="address_N202AA">
+                     <addrLine xml:id="idm13">Royal Danish Library</addrLine>
+                     <addrLine xml:id="addrLine_N202AD">Søren Kierkegaards Plads 1</addrLine>
+                     <addrLine xml:id="addrLine_N202AF">P.O. Box 2149</addrLine>
+                     <addrLine xml:id="addrLine_N202B1">DK - 1016 Copenhagen K</addrLine>
+                     <addrLine xml:id="addrLine_N202B3">
+                        <ptr label="WWW" target="https://www.kb.dk" xml:id="ptr_N202B4"/>
+                     </addrLine>
+                     <addrLine xml:id="addrLine_N202B7">
+                        <ptr label="E-mail" xml:id="ptr_N202B8" target="mailto://kb@kb.dk"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_bf78cfb2">Niels Bo Foltmann</persName>
+               <persName role="editor" xml:id="persName_007f2a26">Axel Teich Geertinger</persName>
+               <persName role="editor" xml:id="persName_5aeec975">Peter Hauge</persName>
+               <persName role="editor" xml:id="persName_67e6da84">Niels Krabbe</persName>
+               <persName role="editor" xml:id="persName_263idm140379295626816">Bjarke Moe</persName>
+               <persName role="editor" xml:id="persName_042b1ce9">Elly Bruunshuus Petersen</persName>
+               <persName role="programmer" xml:id="persName_d9662efe">Sigfrid Lundberg</persName>
+               <persName role="secretary" xml:id="persName_141bf570">Katarina Smitt Engberg</persName>
+               <persName role="secretary" xml:id="persName_99fdad84">Niclas Nørby Hundahl</persName>
+            </respStmt>
+            <date isodate="2014" xml:id="date_N202DF">2014</date>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_N202E6">
+            <title xml:id="title_a2eece17">Carl Nielsen Works</title>
+            <identifier type="file_collection" xml:id="identifier_2c88978f">CNW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_N20427">
+         <appInfo xml:id="appInfo_N20428">
+            <application version="2013" xml:id="application_N20429">
+               <name xml:id="name_N2042B">MerMEId</name>
+               <ptr label="MerMEId project home page"
+                    target="http://www.kb.dk/en/nb/dcm/projekter/mermeid.html"
+                    xml:id="ptr_N2042D"/>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_0c9eb41a">
+            <p xml:id="idm133">Metadata created using MerMEId 2013.</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_N20435">
+         <work xml:id="work_d1e191187">
+            <identifier label="CNW" xml:id="identifier_N20439">160</identifier>
+            <identifier label="CNU" xml:id="identifier_N2043C">III/4, 45</identifier>
+            <identifier label="CNS" xml:id="identifier_N2043F">111</identifier>
+            <identifier label="FS" xml:id="identifier_N20442">83</identifier>
+            <title xml:id="title_f6c40447" xml:lang="da">Det koster ej for megen Strid</title>
+            <title xml:id="title_7ea4d58f" xml:lang="en">The strain is not too great</title>
+            <contributor xml:id="respStmt_N2044E">
+               <persName role="composer" xml:id="persName_64f937bf">Carl Nielsen</persName>
+               <persName role="author" xml:id="persName_3b2bb5c1">Hans Adolph Brorson</persName>
+            </contributor>
+            <creation xml:id="creation_316ca10d">
+               <date notafter="1914-10" notbefore="1913" xml:id="date_N2045B">Between 1913 and Oct. 1914</date>
+            </creation>
+            <history xml:id="history_2c8d4742">
+               <eventList type="performances" xml:id="eventList_08bfa130">
+                  <event xml:id="event_bf72a5fc">
+                     <date isodate="1914-10-14" xml:id="date_N20464">1914-10-14</date>
+                     <geogName role="venue" xml:id="geogName_b558e62d">Esajaskirken</geogName>
+                     <geogName role="place" xml:id="geogName_47eac0a0">Copenhagen</geogName>
+                     <persName role="performer" xml:id="persName_42c47bc5">Johanne Karstens, singer</persName>
+                     <persName role="performer" xml:id="persName_a6285b3e">Ch.B. Hansen, organ</persName>
+                     <desc xml:id="idm156">First performance (?).</desc>
+                     <biblList xml:id="biblList_69c956b9">
+                        <head xml:id="head_N2047C">Reviews</head>
+                     </biblList>
+                     <biblList xml:id="biblList_4c69ec86">
+                        <head xml:id="head_N20480">Evidence</head>
+                     </biblList>
+                  </event>
+               </eventList>
+               <p xml:id="idm161">The hymn was probably composed in 1914 and was later included in <ref xmlns:xl="http://www.w3.org/1999/xlink" xml:id="idm162"
+                       target="document.xq?doc=80cd1305-3df6-4253-936d-25b73a91fb5d.xml"
+                       xl:show="replace"
+                       label="CNW Coll. 10">
+                     <rend xml:id="idm163" fontstyle="italic">Salmer og aandelige Sange</rend> (CNW Coll. 10)</ref>. As with several other of these hymns, Nielsen gave them a 'trial run' at a public concert before they appeared in print.</p>
+            </history>
+            <langUsage xml:id="langUsage_N20489">
+               <language xml:id="da">Danish</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <notesStmt xml:id="notesStmt_N20490">
+               <annot label="" type="links" xml:id="annot_9962ee02">
+                  <ptr label="Carl Nielsen Edition (Editorial Texts)" mimetype=""
+                       target="/dcm/assets/cnu/pdf/CNU_III_07_songs_4.pdf"
+                       xml:id="ptr_5e7050b6"/>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_N2049A">
+               <termList xml:id="termList_N204AD">
+                  <term xml:id="term_N204AE">Vocal music</term>
+                  <term xml:id="term_N204B0">Song</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_N204B2">
+               <expression xml:id="expression_1">
+                  <title xml:id="title_2d9047ae" xml:lang="da"/>
+                  <incip xml:id="incip_f6572319">
+                     <incipText xml:id="incipText_5fbd7bb7">
+                        <p xml:id="p_N204BE" xml:lang="da">Det koster ej for megen Strid</p>
+                        <p xml:id="p_N204C1" xml:lang="en">The strain is not too great</p>
+                     </incipText>
+                     <graphic target="/dcm/assets/udgivelser/cnw/incipits/lowres/cnw_160.png" label=""
+                              targettype="lowres"
+                              xml:id="graphic_047ae487"/>
+                     <graphic target="/dcm/assets/udgivelser/cnw/incipits/hires/cnw_160.png" label=""
+                              targettype="hires"
+                              xml:id="graphic_28931fff"/>
+                  </incip>
+                  <meter count="3" unit="2" xml:id="meter_N204D5"/>
+                  <history xml:id="history_c4e0a898">
+                     <eventList type="performances" xml:id="eventList_bfa6dbcd">
+                        <event xml:id="event_d1e337330"/>
+                     </eventList>
+                     <p xml:id="idm195"/>
+                  </history>
+                  <perfMedium analog="marc:048" xml:id="perfMedium_3d75aadd">
+                     <perfResList xml:id="perfResList_N204F3">
+                        <perfRes codedval="ka" count="1" solo="false" xml:id="perfRes_400c1f7f">pf./SATB</perfRes>
+                     </perfResList>
+                  </perfMedium>
+                  <relationList xml:id="relationList_N204FE">
+                     <relation label="Carl Nielsen Edition" rel="hasReproduction"
+                               target="http://www.kb.dk/export/sites/kb_dk/da/nb/dcm/cnu/pdf/CNU_III_04_songs_1.pdf#page=124"
+                               targettype="edited_score"
+                               xml:id="relation_76073683"/>
+                  </relationList>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_N20505">
+               <relation label="Salmer og aandelige Sange" rel="isPartOf"
+                         target="80cd1305-3df6-4253-936d-25b73a91fb5d.xml"
+                         xml:id="relation_de324509"/>
+            </relationList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_N202F4">
+         <manifestation label="" xml:id="source_9af90061">
+            <identifier label="" xml:id="identifier_N203DF"/>
+            <titleStmt xml:id="titleStmt_N203E1">
+               <title xml:id="title_5df1fcdd">Score, sketch</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_N203E5"/>
+            <classification xml:id="classification_N203F1">
+               <termList xml:id="termList_N203F2">
+                  <term class="#DcmContentClass" xml:id="term_N203F3">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_N203F6">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_N203F9">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_N203FC">score</term>
+                  <term class="#DcmStateClass" xml:id="term_N203FF">sketch</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_N20402">fragment</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_N20405">
+               <item label="" xml:id="item_02c18b74">
+                  <identifier label="CNU Source" xml:id="identifier_N20409">D</identifier>
+                  <physLoc xml:id="physLoc_N2040D">
+                     <repository xml:id="repository_N2040E">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_4db48fea">DK-Kk</identifier>
+                        <ptr label="Facsimile (CNS 115c)" mimetype=""
+                             target="/dcm/ma/CarlNielsen/cns115c.pdf"
+                             xml:id="ptr_c8e0b786"/>
+                     </repository>
+                     <identifier xml:id="identifier_657d8f79">CNS 111c (in CNS 115c)</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+         </manifestation>
+         <manifestation label="" xml:id="source_0ea58ede">
+            <identifier label="" xml:id="identifier_N20393"/>
+            <titleStmt xml:id="titleStmt_N20395">
+               <title xml:id="title_54456c31">Score, autograph, fair copy</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_N20399"/>
+            <classification xml:id="classification_N203A5">
+               <termList xml:id="termList_N203A6">
+                  <term class="#DcmContentClass" xml:id="term_N203A7">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_N203AA">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_N203AD">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_N203B0">score</term>
+                  <term class="#DcmStateClass" xml:id="term_N203B3">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_N203B6">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_N203B9">
+               <item label="" xml:id="item_caa1616b">
+                  <identifier label="CNU Source" xml:id="identifier_N203BD">C</identifier>
+                  <physLoc xml:id="physLoc_N203C1">
+                     <repository xml:id="repository_N203C2">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_02e6f3f2">DK-Kk</identifier>
+                        <ptr label="Facsimile" mimetype="" target="/dcm/ma/CarlNielsen/cns111b.pdf"
+                             xml:id="ptr_1a594cc8"/>
+                     </repository>
+                     <identifier xml:id="identifier_50082ab2">CNS 111b</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+         </manifestation>
+         <manifestation label="" xml:id="source_2a8d5c7a">
+            <identifier label="" xml:id="identifier_N20347"/>
+            <titleStmt xml:id="titleStmt_N20349">
+               <title xml:id="title_a1f91d3a">Score, autograph, printer's manuscript</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_N2034D"/>
+            <classification xml:id="classification_N20359">
+               <termList xml:id="termList_N2035A">
+                  <term class="#DcmContentClass" xml:id="term_N2035B">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_N2035E">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_N20361">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_N20364">score</term>
+                  <term class="#DcmStateClass" xml:id="term_N20367">printer's copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_N2036A">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_N2036D">
+               <item label="" xml:id="item_e6f5bdd2">
+                  <identifier label="CNU Source" xml:id="identifier_N20371">B</identifier>
+                  <physLoc xml:id="physLoc_N20375">
+                     <repository xml:id="repository_N20376">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_8bcf4d63">DK-Kk</identifier>
+                        <ptr label="Facsimile (CNS 220)" mimetype="" target="/dcm/ma/CarlNielsen/cns220.pdf"
+                             xml:id="ptr_322N200B7"/>
+                     </repository>
+                     <identifier xml:id="identifier_3d3cdc20">CNS 111a (in CNS 220)</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+         </manifestation>
+         <manifestation label="" xml:id="source_1c990dac">
+            <identifier label="CNU Source" xml:id="identifier_N202F9">A</identifier>
+            <titleStmt xml:id="titleStmt_N202FC">
+               <title xml:id="title_3547664e">Score, print</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_N20300">
+               <publisher xml:id="publisher_8ec96ce3">Wilhelm Hansen</publisher>
+               <pubPlace xml:id="pubPlace_2db61478">Copenhagen</pubPlace>
+               <date isodate="1919" xml:id="date_N20307">1919</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_N2030A">
+               <titlePage label="" xml:id="titlePage_09639f6d">
+                  <p xml:id="idm111">Wilhelm Hansen Edition. No. 1985 / SALMER OG AANDELiGE SANGE / HALVHUNDRED NYE MELODIER FOR / HJEM * KIRKE OG SKOLE / Komponerede af CARL NiELSEN / FORLÆGGERENS EJENDOM FOR ALLE LANDE / KØBENHAVN &amp; LEIPZIG / WILHELM HANSEN, MUSIK-FORLAG / KRISTIANIA &amp; BERGEN / NORSK MUSIK-FORLAG / Brødrene Hals – Warmuth – Wilhelm Hansen. / STOCKHOLM &amp; GÖTEBORG / A.B. NORDISKA MUSIKFÖRLAGET / Copyright 1919 by Wilhelm Hansen, Copenhagen</p>
+               </titlePage>
+            </physDesc>
+            <classification xml:id="classification_N20311">
+               <termList xml:id="termList_N20312">
+                  <term class="#DcmContentClass" xml:id="term_N20313">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_N20316">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_N20319"/>
+                  <term class="#DcmScoringClass" xml:id="term_N2031B">score</term>
+                  <term class="#DcmStateClass" xml:id="term_N2031E">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_N20321">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_N20324">
+               <item label="" xml:id="item_5ac77e4a">
+                  <physLoc xml:id="physLoc_N20329">
+                     <repository xml:id="repository_N2032A">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_ea63ca87">DK-Kk</identifier>
+                        <ptr label="Facsimile" mimetype="" target="/dcm/ma/dansang/cn-salmogaand.pdf"
+                             xml:id="ptr_558fcd7c"/>
+                     </repository>
+                     <identifier xml:id="identifier_f3ef12db">D310, 1920.2195</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm203">
+         <change isodate="2011-12-08" xml:id="change_d1e393386">
+            <respStmt xml:id="idm205">
+               <name xml:id="idm206">ebp</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20510">
+               <p xml:id="p_N20511">tab.1</p>
+            </changeDesc>
+         </change>
+         <change isodate="2013-09-03" xml:id="change_161d1e179">
+            <respStmt xml:id="idm210">
+               <name xml:id="idm211">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20517">
+               <p xml:id="p_N20518">Automated conversion from MEI 2012 to MEI 2013</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-01-02" xml:id="change_50a4226d">
+            <respStmt xml:id="idm215">
+               <name xml:id="idm216">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N2051E">
+               <p xml:id="p_N2051F"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-01-20" xml:id="change_ba600ee3">
+            <respStmt xml:id="idm220">
+               <name xml:id="idm221">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20524">
+               <p xml:id="p_N20525"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-01-30" xml:id="change_292N202B7">
+            <respStmt xml:id="idm225">
+               <name xml:id="idm226">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N2052A">
+               <p xml:id="p_N2052B"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-02-14" xml:id="change_927b0cde">
+            <respStmt xml:id="idm230">
+               <name xml:id="idm231">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20530">
+               <p xml:id="p_N20531"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-03-12" xml:id="change_50a3df3d">
+            <respStmt xml:id="idm235">
+               <name xml:id="idm236">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20536">
+               <p xml:id="p_N20537"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-03-25" xml:id="change_259N20274">
+            <respStmt xml:id="idm240">
+               <name xml:id="idm241">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N2053C">
+               <p xml:id="p_N2053D"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-04-10" xml:id="change_a5b82f77">
+            <respStmt xml:id="idm245">
+               <name xml:id="idm246">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20542">
+               <p xml:id="p_N20543"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-05-21" xml:id="change_271N2029B">
+            <respStmt xml:id="idm250">
+               <name xml:id="idm251">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20548">
+               <p xml:id="p_N20549"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-05-26" xml:id="change_274N202A1">
+            <respStmt xml:id="idm255">
+               <name xml:id="idm256">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N2054E">
+               <p xml:id="p_N2054F"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-05-30" xml:id="change_d8aef277">
+            <respStmt xml:id="idm260">
+               <name xml:id="idm261">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20554">
+               <p xml:id="p_N20555"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-08-26" xml:id="change_281N202B0">
+            <respStmt xml:id="idm265">
+               <name xml:id="idm266">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N2055A">
+               <p xml:id="p_N2055B"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-09-02" xml:id="change_283N202AF">
+            <respStmt xml:id="idm270">
+               <name xml:id="idm271">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20560">
+               <p xml:id="p_N20561"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-09-04" xml:id="change_284N202B1">
+            <respStmt xml:id="idm275">
+               <name xml:id="idm276">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20566">
+               <p xml:id="p_N20567"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-09-12" xml:id="change_281N202AC">
+            <respStmt xml:id="idm280">
+               <name xml:id="idm281">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N2056C">
+               <p xml:id="p_N2056D"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-09-23" xml:id="change_284N202B2">
+            <respStmt xml:id="idm285">
+               <name xml:id="idm286">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20572">
+               <p xml:id="p_N20573"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-09-29" xml:id="change_318N202FD">
+            <respStmt xml:id="idm290">
+               <name xml:id="idm291">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20578">
+               <p xml:id="p_N20579"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-10-06" xml:id="change_322N20308">
+            <respStmt xml:id="idm295">
+               <name xml:id="idm296">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N2057E">
+               <p xml:id="p_N2057F"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-10-21" xml:id="change_325N2030E">
+            <respStmt xml:id="idm300">
+               <name xml:id="idm301">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20584">
+               <p xml:id="p_N20585"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-11-20" xml:id="change_325d1e334">
+            <respStmt xml:id="idm305">
+               <name xml:id="idm306">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N2058A">
+               <p xml:id="p_N2058B">Batch transformation moving identifier/@type data to @label</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-11-20" xml:id="change_328d1e334">
+            <respStmt xml:id="idm310">
+               <name xml:id="idm311">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20591">
+               <p xml:id="p_N20592">Batch transformation ensuring correct order of elements in source, work and biblList</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-11-20" xml:id="change_331d1e334">
+            <respStmt xml:id="idm315">
+               <name xml:id="idm316">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N20598">
+               <p xml:id="p_N20599">Batch transformation removing duplicate IDs and fixing other issues</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-12-12" xml:id="change_322d1e334">
+            <respStmt xml:id="idm320">
+               <name xml:id="idm321">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N2059F">
+               <p xml:id="p_N205A0">removed indication of key</p>
+            </changeDesc>
+         </change>
+         <change isodate="2015-08-11" xml:id="change_312N202FA">
+            <respStmt xml:id="idm325">
+               <name xml:id="idm326">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N205A6">
+               <p xml:id="p_N205A7"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_312idm140028222064640">
+            <respStmt xml:id="idm330">
+               <name xml:id="idm331">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N205AC">
+               <p xml:id="p_N205AD">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-29" xml:id="change_N205AF">
+            <respStmt xml:id="idm335">
+               <name xml:id="idm336"/>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N205B1">
+               <p xml:id="p_N205B2"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_349d1e359">
+            <respStmt xml:id="idm340">
+               <name xml:id="idm341">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N205B7">
+               <p xml:id="p_N205B8">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-04-12" xml:id="change_353N10430">
+            <respStmt xml:id="idm345">
+               <name xml:id="idm346">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="idm347">
+               <p xml:id="idm348"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-05-13" xml:id="change_356N10435">
+            <respStmt xml:id="idm350">
+               <name xml:id="idm351">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="idm352">
+               <p xml:id="idm353"/>
+            </changeDesc>
+         </change>
+         <change xml:id="idm354" isodate="2017-04-04" n="31">
+            <respStmt xml:id="idm355">
+               <name xml:id="idm356">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm357">
+               <p xml:id="idm358">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-05T18:03:23+01:00" xml:id="change_423N1030D">
+            <respStmt xml:id="idm360">
+               <name xml:id="idm361">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm362">
+               <p xml:id="idm363">Mail address updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-14T16:33:31+01:00" xml:id="change_420N102F5">
+            <respStmt xml:id="idm365">
+               <name xml:id="idm366">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm367">
+               <p xml:id="idm368">Batch transformation removing empty elements</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T15:00:44Z" xml:id="change_369N1027C">
+            <respStmt xml:id="idm370">
+               <name xml:id="idm371">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm372">
+               <p xml:id="idm373">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_374d1e297">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_378d1e296">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_383d1e296">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm374"/>
+</mei>

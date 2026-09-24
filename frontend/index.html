@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>Classical Music Catalogue Portal</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Classical Music Catalogue Portal</h1>
+    <p class="subtitle">Browse and search the Carl Nielsen Works Catalogue (MEI XML).</p>
+    <p class="stats" id="stats"></p>
+  </header>
+
+  <main>
+    <div id="browse-view">
+      <section class="filters">
+        <input id="search-input" type="search" placeholder="Search works by title, catalogue number, or composer..." aria-label="Search works" />
+        <select id="composer-filter" aria-label="Filter by composer">
+          <option value="">All composers</option>
+        </select>
+        <select id="genre-filter" aria-label="Filter by genre">
+          <option value="">All genres</option>
+        </select>
+        <select id="instrument-filter" aria-label="Filter by instrument">
+          <option value="">All instruments</option>
+        </select>
+        <label class="upload-label" for="mei-upload">Import MEI file
+          <input id="mei-upload" type="file" accept=".xml,.mei" hidden />
+        </label>
+      </section>
+      <p class="upload-status" id="upload-status" hidden></p>
+
+      <section class="results">
+        <div class="section-head">
+          <h2 class="section-title">Works</h2>
+          <span class="result-count" id="result-count"></span>
+        </div>
+        <div class="works-card">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Catalogue</th>
+                  <th>Title</th>
+                  <th>Composer</th>
+                  <th class="col-hide-sm">Genre</th>
+                  <th class="col-hide-md">Key</th>
+                  <th class="col-hide-sm">Year</th>
+                </tr>
+              </thead>
+              <tbody id="works-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <nav class="pagination" id="pagination" aria-label="Works pages"></nav>
+      </section>
+    </div>
+
+    <section id="work-detail" class="work-detail" hidden>
+      <button id="detail-close" type="button" class="back-button">&larr; Back to list</button>
+      <div class="detail-card" id="detail-body"></div>
+    </section>
+  </main>
+
+  <script src="https://www.verovio.org/javascript/5.2.0/verovio-toolkit-wasm.js"></script>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

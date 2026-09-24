@@ -1,0 +1,1770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_idm140301929445088">
+   <meiHead xml:id="meiHead_0ebb5705">
+      <fileDesc xml:id="fileDesc_f89816ef">
+         <titleStmt xml:id="titleStmt_454baa3e">
+            <title xml:id="title_047b7f26" xml:lang="da">Thema med Variationer, opus 40</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_34043d2b">
+            <respStmt xml:id="respStmt_31861f3e">
+               <resp xml:id="resp_6f64650a">Publisher</resp>
+               <corpName xml:id="corpName_3b13b6f9">
+                  <abbr xml:id="abbr_7bd11e04">DCM</abbr>
+                  <expan xml:id="expan_58100ffc">Danish Centre for Music Editing</expan>
+                  <address xml:id="address_77f09725">
+                     <addrLine xml:id="addrLine_e504fbfe">Royal Danish Library</addrLine>
+                     <addrLine xml:id="addrLine_2bec0832">Søren Kierkegaards Plads 1</addrLine>
+                     <addrLine xml:id="addrLine_7e6d3358">P.O. Box 2149</addrLine>
+                     <addrLine xml:id="addrLine_9d987c96">DK - 1016 Copenhagen K</addrLine>
+                     <addrLine xml:id="addrLine_f0c7cbdf">
+                        <ptr label="WWW" target="https://www.kb.dk" xml:id="ptr_N2026F"/>
+                     </addrLine>
+                     <addrLine xml:id="addrLine_5dfad893">
+                        <ptr label="E-mail" target="mailto://kb@kb.dk" xml:id="ptr_N20273"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_1cc1a7b5">Niels Bo Foltmann</persName>
+               <persName role="editor" xml:id="persName_96234866">Axel Teich Geertinger</persName>
+               <persName role="editor" xml:id="persName_6d7d0f23">Peter Hauge</persName>
+               <persName role="editor" xml:id="persName_6b22c9f8">Niels Krabbe</persName>
+               <persName role="editor" xml:id="persName_731idm140379295626944">Bjarke Moe</persName>
+               <persName role="editor" xml:id="persName_a50396a6">Elly Bruunshuus Petersen</persName>
+               <persName role="programmer" xml:id="persName_ae6933bd">Sigfrid Lundberg</persName>
+               <persName role="secretary" xml:id="persName_78cbef5d">Katarina Smitt Engberg</persName>
+               <persName role="secretary" xml:id="persName_18f75568">Niclas Nørby Hundahl</persName>
+            </respStmt>
+            <date isodate="2014" xml:id="date_13de941c">2014</date>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_92fb3a0e">
+            <title xml:id="title_88cfa973">Carl Nielsen Works</title>
+            <identifier type="file_collection" xml:id="identifier_9c56af45">CNW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_7a7120c2">
+         <appInfo xml:id="appInfo_2ba494cf">
+            <application version="2013" xml:id="application_9e80265c">
+               <name xml:id="name_9a942c85">MerMEId</name>
+               <ptr label="MerMEId project home page"
+                    target="http://www.kb.dk/en/nb/dcm/projekter/mermeid.html"
+                    xml:id="ptr_N202F4"/>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_7466420b">
+            <p xml:id="idm64">Metadata created using MerMEId 2013.</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_1bdf5281">
+         <work xml:id="work_d1e239235">
+            <identifier label="Opus" xml:id="identifier_ac0f6e25">40</identifier>
+            <identifier label="CNW" xml:id="identifier_f8c5e599">87</identifier>
+            <identifier label="CNU" xml:id="identifier_d9d63335">II/12</identifier>
+            <identifier label="FS" xml:id="identifier_ee136de1">81</identifier>
+            <title xml:id="title_31f6458c" xml:lang="da">Thema med Variationer, opus 40</title>
+            <title xml:id="title_0c1a841f" xml:lang="en">Theme and Variations, Opus 40</title>
+            <title type="uniform" xml:id="title_3c652ea2" xml:lang="da">Tema med variationer</title>
+            <contributor xml:id="respStmt_4d73eabc">
+               <persName role="composer" xml:id="persName_a17b2e34">Carl Nielsen</persName>
+            </contributor>
+            <creation xml:id="creation_7a1e3b6d">
+               <date isodate="1917" xml:id="date_6437883e">1917</date>
+            </creation>
+            <history xml:id="history_6adeddc0">
+               <p xml:id="idm80">According to a letter, Nielsen embarked on <rend xml:id="idm81" fontstyle="italic">Thema med variationer</rend> barely two months after finishing the <ref xmlns:xl="http://www.w3.org/1999/xlink" xml:id="idm82"
+                       target="document.xq?doc=cnw0086.xml"
+                       xl:show="replace"
+                       label="">
+                     <rend xml:id="idm83" fontstyle="italic">Chaconne</rend> (CNW 86)</ref>. Though the work interested him enormously, he had to put it aside for a while in order to complete <ref xmlns:xl="http://www.w3.org/1999/xlink" xml:id="idm84"
+                       target="document.xq?doc=cnw0111.xml"
+                       xl:show="replace"
+                       label="">
+                     <rend xml:id="idm85" fontstyle="italic">Kantate ved Grosserer-Societetets Hundredaarsfest</rend> (CNW 111)</ref>.</p>
+            </history>
+            <langUsage xml:id="langUsage_b8d1946e">
+               <language xml:id="da">Danish</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <biblList xml:id="listBibl_b52bd04b-9efd-4537-a9c0-7ad15a91295f283">
+               <head xml:id="head_db1d5d8d">Documents</head>
+               <bibl label="" xml:id="bibl_d1e293288">
+                  <genre xml:id="genre_c87b8a1f">letter</genre>
+                  <author xml:id="author_76291ca5">Carl Nielsen</author>
+                  <recipient xml:id="recipient_9a791c7c">Irmelin Nielsen</recipient>
+                  <creation xml:id="creation_c0ad55a4">
+                     <date isodate="1917-03-22" xml:id="date_b962efc2">1917-03-22</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_b1599a9a">
+                     <repository xml:id="repository_45f9db7e">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_7e7930bd">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_34e7a9e5">CNA IIIAa1</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_4162772a">
+                     <bibl label="" xml:id="bibl_d1e327321">
+                        <title xml:id="title_6c7a2226">CNB</title>
+                        <biblScope xml:id="biblScope_3cc31277">V/488</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_8947bd4041a">
+                     <bibl label="" xml:id="bibl_89472feda70">
+                        <title xml:id="title_894fba61e51">CNL</title>
+                        <biblScope xml:id="biblScope_8942a7a747d">387</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e338332">
+                  <genre xml:id="genre_9e130200">letter</genre>
+                  <author xml:id="author_c799d043">Carl Nielsen</author>
+                  <recipient xml:id="recipient_aaac9571">Alexander Stoffregen</recipient>
+                  <creation xml:id="creation_6bde39ac">
+                     <date isodate="1917-10-04" xml:id="date_8b164046">1917-10-04</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_e13009ca">
+                     <repository xml:id="repository_5d190381">
+                        <corpName xml:id="corpName_4d470d8b">privately owned</corpName>
+                     </repository>
+                     <identifier xml:id="identifier_7d75d2d8"/>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_492727f7">
+                     <bibl label="" xml:id="bibl_d1e371364">
+                        <title xml:id="title_2fd2bad6">CNB</title>
+                        <biblScope xml:id="biblScope_bbf621a0">V/549</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e382375">
+                  <genre xml:id="genre_e4e1b7a3">letter</genre>
+                  <author xml:id="author_acbe2019">Carl Nielsen</author>
+                  <recipient xml:id="recipient_51b1a875">Julius Lehmann</recipient>
+                  <creation xml:id="creation_5dba1a2b">
+                     <date isodate="1917-12-06" xml:id="date_d7457c84">1917-12-06</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_e9744d6c">
+                     <repository xml:id="repository_01387250">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_e6bc85ea">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_7219e518">Acc. 1981/168</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_13d5be1d">
+                     <bibl label="" xml:id="bibl_d1e416408">
+                        <title xml:id="title_60623149">CNB</title>
+                        <biblScope xml:id="biblScope_7f0fcf46">V/549</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e427419">
+                  <genre xml:id="genre_c52734f0">letter</genre>
+                  <author xml:id="author_8ecbb736">Wilhelm Hansen</author>
+                  <recipient xml:id="recipient_a9f6115c">Carl Nielsen</recipient>
+                  <creation xml:id="creation_7c692264">
+                     <date isodate="1919-09-06" xml:id="date_7909adc6">1919-09-06</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_06fb651e">
+                     <repository xml:id="repository_52cf41a0">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_cfa3017e">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_ca4ccba2">WHA</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_c1ad10c6">
+                     <bibl label="" xml:id="bibl_d1e461452">
+                        <title xml:id="title_0bca57fa">CNB </title>
+                        <biblScope xml:id="biblScope_3d3cf6f1">VI/243</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e473463">
+                  <genre xml:id="genre_f83b0cbb">letter</genre>
+                  <author xml:id="author_99a91cb4">Thorsten Larsen</author>
+                  <recipient xml:id="recipient_530b19f8">Wilhelm Hansens Musikforlag</recipient>
+                  <creation xml:id="creation_07bb24ec">
+                     <date isodate="1919-09-19" xml:id="date_d1620002">1919-09-19</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_3607c5da">
+                     <repository xml:id="repository_f232d375">
+                        <corpName xml:id="corpName_fefb56b8">DK-København, Edition Wilhelm Hansen AS</corpName>
+                     </repository>
+                     <identifier xml:id="identifier_f1511df0"/>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_cae86f62">
+                     <bibl label="" xml:id="bibl_d1e506495">
+                        <title xml:id="title_d547c4ff">CNB</title>
+                        <biblScope xml:id="biblScope_21ae4b48">VI/254</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e517506">
+                  <genre xml:id="genre_bc912423">letter</genre>
+                  <author xml:id="author_02b8ec24">Carl Nielsen</author>
+                  <recipient xml:id="recipient_e85abf2c">Wilhelm Hansen</recipient>
+                  <creation xml:id="creation_415ba4d9">
+                     <date isodate="1920-07-24" xml:id="date_aa94319b">1920-07-24</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_782e58a8">
+                     <repository xml:id="repository_3bbf1ef2">
+                        <corpName xml:id="corpName_f590d074">DK-København, Edition Wilhelm Hansen AS</corpName>
+                     </repository>
+                     <identifier xml:id="identifier_cbc9cfd8"/>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_c21c1b73">
+                     <bibl label="" xml:id="bibl_d1e550538">
+                        <title xml:id="title_feec6223">CNB</title>
+                        <biblScope xml:id="biblScope_1445a34e">VI/426</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e561549">
+                  <genre xml:id="genre_352b31d1">letter</genre>
+                  <author xml:id="author_9df60484">Carl Nielsen</author>
+                  <recipient xml:id="recipient_20a70a54">Asger Wilhelm Hansen</recipient>
+                  <creation xml:id="creation_6ea2cb1a">
+                     <date isodate="1920-08-05" xml:id="date_244a427c">1920-08-05</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_77d249fd">
+                     <repository xml:id="repository_4165b17e">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_7a7bb240">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_7f4914ed">WHA</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_57fae7c6">
+                     <bibl label="" xml:id="bibl_d1e595582">
+                        <title xml:id="title_8825f2ad">CNB</title>
+                        <biblScope xml:id="biblScope_df71b493">VI/429</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e606593">
+                  <genre xml:id="genre_52bd88f7">letter</genre>
+                  <author xml:id="author_3bc629ce">Wilhelm Hansen</author>
+                  <recipient xml:id="recipient_9e09ea59">Carl Nielsen</recipient>
+                  <creation xml:id="creation_ee4d9dd2">
+                     <date isodate="1920-08-07" xml:id="date_eb14466b">1920-08-07</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_9b98ed2c">
+                     <repository xml:id="repository_10f56914">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_1d6f8d29">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_c38ec93b">WHA</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_938566fe">
+                     <bibl label="" xml:id="bibl_d1e640626">
+                        <title xml:id="title_35191227">CNB</title>
+                        <biblScope xml:id="biblScope_73dd844f">VI/430</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e651637">
+                  <genre xml:id="genre_9bdd8344">letter</genre>
+                  <author xml:id="author_87c1835a">Wilhelm Hansen</author>
+                  <recipient xml:id="recipient_d7ae6fd0">Carl Nielsen</recipient>
+                  <creation xml:id="creation_3892f892">
+                     <date isodate="1920-09-28" xml:id="date_3a02a869">1920-09-28</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_17d023db">
+                     <repository xml:id="repository_e6a8230a">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_56aed2b8">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_b936984d">WHA</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_d8c03bbe">
+                     <bibl label="" xml:id="bibl_d1e685670">
+                        <title xml:id="title_c5220b0a">CNB</title>
+                        <biblScope xml:id="biblScope_55a40a7c">VI/454</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e696681">
+                  <genre xml:id="genre_2ba9a9ce">letter</genre>
+                  <author xml:id="author_ffa72c1b">Wilhelm Hansen</author>
+                  <recipient xml:id="recipient_b5cc1aa0">Carl Nielsen</recipient>
+                  <creation xml:id="creation_70f88b2b">
+                     <date isodate="1920-10-09" xml:id="date_e9426a4f">1920-10-09</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_274fcf07">
+                     <repository xml:id="repository_85876ad8">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_b5fe7bf2">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_1f2ea284">WHA</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_8d01013b">
+                     <bibl label="" xml:id="bibl_d1e730714">
+                        <title xml:id="title_d73e98a5">CNB</title>
+                        <biblScope xml:id="biblScope_ab8cfb92">VI/462</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e742725">
+                  <genre xml:id="genre_6441870c">letter</genre>
+                  <author xml:id="author_721df668">Carl Nielsen</author>
+                  <recipient xml:id="recipient_ce2849d5">Alexander Stoffregen</recipient>
+                  <creation xml:id="creation_be2e0878">
+                     <date isodate="1920-12-17" xml:id="date_556c4f1c">1920-12-17</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_dd0f3d77">
+                     <repository xml:id="repository_1422a413">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_d35716d9">DK-Km</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_970bebf4">Alexander Stoffregens papirer</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_fbdd55c4">
+                     <bibl label="" xml:id="bibl_d1e776758">
+                        <title xml:id="title_15cd9ae0">CNB</title>
+                        <biblScope xml:id="biblScope_43157268">VI/494</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e787769">
+                  <genre xml:id="genre_2f7a9c51">letter</genre>
+                  <author xml:id="author_d2ee3e06">Julius Röntgen</author>
+                  <recipient xml:id="recipient_e7106de6">Carl Nielsen</recipient>
+                  <creation xml:id="creation_2d675d3f">
+                     <date isodate="1920-12-23" xml:id="date_bcad6d27">1920-12-23</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_0b7bd933">
+                     <repository xml:id="repository_00d52a6f">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_b937ca6f">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_1b5c57f5">CNA IAb</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_a11016e0">
+                     <bibl label="" xml:id="bibl_d1e821802">
+                        <title xml:id="title_cbfc92f5">CNB</title>
+                        <biblScope xml:id="biblScope_62612a74">VI/498</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_894ee64188f">
+                     <bibl label="" xml:id="bibl_894e77a5170">
+                        <title xml:id="title_894ff6fd76e">CNL</title>
+                        <biblScope xml:id="biblScope_894b5acdb01">450</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e832813">
+                  <genre xml:id="genre_8d76bb01">letter</genre>
+                  <author xml:id="author_2c098e91">Carl Nielsen</author>
+                  <recipient xml:id="recipient_02afd0b3">Julius Röntgen</recipient>
+                  <creation xml:id="creation_ddc8c07a">
+                     <date isodate="1921-01-03" xml:id="date_aea0b026">1921-01-03</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_e5b88405">
+                     <repository xml:id="repository_ba6da252">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_e714b599">NL-DHnmi</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_b4fb6c68">HGM-107/C-135–33</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_1f067370">
+                     <bibl label="" xml:id="bibl_d1e866846">
+                        <title xml:id="title_1d5a0898">CNB</title>
+                        <biblScope xml:id="biblScope_4d780b5a">VII/1</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_8941c1b6455">
+                     <bibl label="" xml:id="bibl_8942ff63920">
+                        <title xml:id="title_894f111a377">CNL</title>
+                        <biblScope xml:id="biblScope_89488a2fcc1">452</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e877857">
+                  <genre xml:id="genre_c17155b9">letter</genre>
+                  <author xml:id="author_067f5762">Carl Nielsen</author>
+                  <recipient xml:id="recipient_7ba47e7b">Frants Buhl</recipient>
+                  <creation xml:id="creation_73a51c94">
+                     <date isodate="1921-02-24" xml:id="date_ee1116d6">1921-02-24</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_57fd813d">
+                     <repository xml:id="repository_a6979bcf">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_74773439">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_2061a18f">NKS 4962 4°</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_ed4136cb">
+                     <bibl label="" xml:id="bibl_d1e911890">
+                        <title xml:id="title_3cbdb3ca">CNB</title>
+                        <biblScope xml:id="biblScope_6342e673">VII/25</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e922901">
+                  <genre xml:id="genre_e1a68b94">letter</genre>
+                  <author xml:id="author_340e73c4">Carl Nielsen</author>
+                  <recipient xml:id="recipient_830a8bba">Bror Beckman</recipient>
+                  <creation xml:id="creation_9befd15f">
+                     <date isodate="1921-10-05" xml:id="date_d343b006">1921-10-05</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_53eb7a94">
+                     <repository xml:id="repository_c2083b5f">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_02bfe16c">S-Skma</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_1cd9f848">Bror Beckmans arkiv</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_b05bc47d">
+                     <bibl label="" xml:id="bibl_d1e956934">
+                        <title xml:id="title_5647a5db">CNB</title>
+                        <biblScope xml:id="biblScope_fbbcbe1a">VII/138</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_894f965644a">
+                     <bibl label="" xml:id="bibl_894d52f050b">
+                        <title xml:id="title_894eb1504ed">CNL</title>
+                        <biblScope xml:id="biblScope_894c9a341c6">471</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e967945">
+                  <genre xml:id="genre_50cfad7f">letter</genre>
+                  <author xml:id="author_7a89043f">Carl Nielsen</author>
+                  <recipient xml:id="recipient_41b7c40b">Knud Brodin</recipient>
+                  <creation xml:id="creation_352435c4">
+                     <date isodate="1922-02-08" xml:id="date_ecea832e">1922-02-08</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_96196fcd">
+                     <repository xml:id="repository_05bb09fd">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_d40bf45d">S-Skma</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_d7b05292">Brevsamlingen, B18 : 3</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_6cee74c2">
+                     <bibl label="" xml:id="bibl_d1e1001978">
+                        <title xml:id="title_82cb744c">CNB</title>
+                        <biblScope xml:id="biblScope_fe7e3a80">VII/138</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_89433db575d">
+                     <bibl label="" xml:id="bibl_8945dae0a67">
+                        <title xml:id="title_894b4670ab5">CNL</title>
+                        <biblScope xml:id="biblScope_89426158c53">471</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e1013989">
+                  <genre xml:id="genre_a18ea0b5">letter</genre>
+                  <author xml:id="author_0e9d8999">Eduard Erdmann</author>
+                  <recipient xml:id="recipient_55e7146e">Carl Nielsen</recipient>
+                  <creation xml:id="creation_2a309c8d">
+                     <date isodate="1923-01-05" xml:id="date_101ba48c">1923-01-05</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_42203ccb">
+                     <repository xml:id="repository_d5c378b2">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_c72433c9">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_205022e2">CNA IAb</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_71c87c88">
+                     <bibl label="" xml:id="bibl_d1e10471022">
+                        <title xml:id="title_f6aaa738">CNB</title>
+                        <biblScope xml:id="biblScope_d3831cb9">VII/383</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e10581033">
+                  <genre xml:id="genre_91e1dc46">letter</genre>
+                  <author xml:id="author_7d2877d3">Carl Nielsen</author>
+                  <recipient xml:id="recipient_f217d4eb">Anne Marie and Emil Telmányi</recipient>
+                  <creation xml:id="creation_4cba09f9">
+                     <date isodate="1923-01-11" xml:id="date_75dc3a31">1923-01-11</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_f6ddbc5a">
+                     <repository xml:id="repository_65f3e7ee">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_8c1da79a">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_cf251e50">CNS</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_1068b269">
+                     <bibl label="" xml:id="bibl_d1e10921066">
+                        <title xml:id="title_ab4b30a8">CNB</title>
+                        <biblScope xml:id="biblScope_be7a60df">VII/391</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_894ff8779bf">
+                     <bibl label="" xml:id="bibl_894977245dc">
+                        <title xml:id="title_89476c5b954">CNL</title>
+                        <biblScope xml:id="biblScope_89450ab5d01">507</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e11031077">
+                  <genre xml:id="genre_3ac54469">letter</genre>
+                  <author xml:id="author_fdcf9bcc">Carl Nielsen and Anne Marie Carl-Nielsen</author>
+                  <recipient xml:id="recipient_489f7add">Irmelin Eggert Møller</recipient>
+                  <creation xml:id="creation_f5c83a6d">
+                     <date isodate="1923-01-14" xml:id="date_bc370f6a">1923-01-14</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_f536f21b">
+                     <repository xml:id="repository_92bda861">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_d55e20c2">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_18c68e80">CNA IIIAa1</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_1555c971">
+                     <bibl label="" xml:id="bibl_d1e11371110">
+                        <title xml:id="title_33c7884b">CNB</title>
+                        <biblScope xml:id="biblScope_94e50385">VII/393</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e11481121">
+                  <genre xml:id="genre_41a884f0">letter</genre>
+                  <author xml:id="author_e696edfa">Charles Lautrup</author>
+                  <recipient xml:id="recipient_bc0c86af">Carl Nielsen</recipient>
+                  <creation xml:id="creation_351420c5">
+                     <date isodate="1923-02-06" xml:id="date_ec66a89f">1923-02-06</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_36dbef7e">
+                     <repository xml:id="repository_58d8f595">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_ccb20500">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_2f505255">CNA IAb</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_92e76b49">
+                     <bibl label="" xml:id="bibl_d1e11821154">
+                        <title xml:id="title_2732761b">CNB</title>
+                        <biblScope xml:id="biblScope_82dce65d">VII/414</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e11931165">
+                  <genre xml:id="genre_2a9ebabe">letter</genre>
+                  <author xml:id="author_3d45804b">Carl Nielsen</author>
+                  <recipient xml:id="recipient_2ce47c4c">J.F. Willumsen</recipient>
+                  <creation xml:id="creation_f6d43ff6">
+                     <date isodate="1923-03-10" xml:id="date_33b0e88a">1923-03-10</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_9e3db5dd">
+                     <repository xml:id="repository_b2d40d72">
+                        <corpName xml:id="corpName_a1e1900b">DK-Frederikssund, J.F. Willumsens Museum</corpName>
+                     </repository>
+                     <identifier xml:id="identifier_6c8831c7"/>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_387c7b45">
+                     <bibl label="" xml:id="bibl_d1e12261197">
+                        <title xml:id="title_7a87a657">CNB</title>
+                        <biblScope xml:id="biblScope_0b3fa4e2">VII/448</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e12371208">
+                  <genre xml:id="genre_cd1179e6">letter</genre>
+                  <author xml:id="author_f86f8eb8">Carl Nielsen</author>
+                  <recipient xml:id="recipient_db37be04">Emil Telmányi</recipient>
+                  <creation xml:id="creation_cc9e6bfb">
+                     <date isodate="1923-11-15" xml:id="date_18922cc5">1923-11-15</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_841b3a47">
+                     <repository xml:id="repository_7c6bea8b">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_104903d3">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_6f19b7b8">CNS</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_a4da014e">
+                     <bibl label="" xml:id="bibl_d1e12711241">
+                        <title xml:id="title_a57f231c">CNB</title>
+                        <biblScope xml:id="biblScope_9b8f0a6f">VII/579</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_894a1cf9fbf">
+                     <bibl label="" xml:id="bibl_894e9d767bf">
+                        <title xml:id="title_8948d5984d1">CNL</title>
+                        <biblScope xml:id="biblScope_8943025cebc">526</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e12831252">
+                  <genre xml:id="genre_a7c15745">letter</genre>
+                  <author xml:id="author_d360ec97">Carl Nielsen</author>
+                  <recipient xml:id="recipient_3feaa813">Irmelin Eggert Møller</recipient>
+                  <creation xml:id="creation_18a55e1f">
+                     <date isodate="1923-11-26" xml:id="date_4ee5cc6d">1923-11-26</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_b169b21d">
+                     <repository xml:id="repository_e7891e09">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_57935745">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_59ae0a59">CNA IIIAa1</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_8c6897ec">
+                     <bibl label="" xml:id="bibl_d1e13171285">
+                        <title xml:id="title_80a76b0e">CNB</title>
+                        <biblScope xml:id="biblScope_24a381b0">VII/582</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e13281296">
+                  <genre xml:id="genre_170e6822">letter</genre>
+                  <author xml:id="author_ebde5848">Carl Nielsen</author>
+                  <recipient xml:id="recipient_c739578a">Carl Johan Michaelsen</recipient>
+                  <creation xml:id="creation_679871d4">
+                     <date isodate="1923-11-28" xml:id="date_80aca020">1923-11-28</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_a045342a">
+                     <repository xml:id="repository_89ae7a40">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_2c4f6c80">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_453e7583">CNA IAc</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_4c7a2f5a">
+                     <bibl label="" xml:id="bibl_d1e13621329">
+                        <title xml:id="title_0f526d4e">CNB</title>
+                        <biblScope xml:id="biblScope_32a2ded1">VII/584</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e13731340">
+                  <genre xml:id="genre_61276898">letter</genre>
+                  <author xml:id="author_c85f1d22">Carl Nielsen</author>
+                  <recipient xml:id="recipient_b1ab617f">Emil Telmányi</recipient>
+                  <creation xml:id="creation_e12ababa">
+                     <date isodate="1923-12-06" xml:id="date_fbda925f">1923-12-06</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_b2870fec">
+                     <repository xml:id="repository_fa7581f0">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_0ed50cf6">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_c8278387">CNS</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_6443a390">
+                     <bibl label="" xml:id="bibl_d1e14071373">
+                        <title xml:id="title_a4093335">CNB</title>
+                        <biblScope xml:id="biblScope_c9639cbf">VII/586</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_894669a108a">
+                     <bibl label="" xml:id="bibl_8947194b1c3">
+                        <title xml:id="title_894ff4e5a4c">CNL</title>
+                        <biblScope xml:id="biblScope_8946f2ac97b">527</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e14181384">
+                  <genre xml:id="genre_db9250f9">letter</genre>
+                  <author xml:id="author_b327a54b">Carl Nielsen</author>
+                  <recipient xml:id="recipient_7e0cad6d">Emil Telmányi</recipient>
+                  <creation xml:id="creation_da99376c">
+                     <date isodate="1924-05-16" xml:id="date_c5a38078">1924-05-16</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_5b6f3347">
+                     <repository xml:id="repository_85f577bf">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_532722f9">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_3df086ee">CNS</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_77468214">
+                     <bibl label="" xml:id="bibl_d1e14521417">
+                        <title xml:id="title_cdfc1388">CNB</title>
+                        <biblScope xml:id="biblScope_407c2538">VIII/59</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e14631428">
+                  <genre xml:id="genre_adacef7f">letter</genre>
+                  <author xml:id="author_828892ee">Carl Nielsen</author>
+                  <recipient xml:id="recipient_6ff05ab0">Wilhelm Hansen</recipient>
+                  <creation xml:id="creation_9b70bf51">
+                     <date isodate="1924-07-27" xml:id="date_83f94c56">1924-07-27</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_484c1575">
+                     <repository xml:id="repository_8d5b53bb">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_5514934e">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_807ad8a6">WHA</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_4c395383">
+                     <bibl label="" xml:id="bibl_d1e14971461">
+                        <title xml:id="title_20b32e57">CNB</title>
+                        <biblScope xml:id="biblScope_6214ff19">VIII/106</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_894c584bae0">
+                     <bibl label="" xml:id="bibl_894ab7eb795">
+                        <title xml:id="title_8946837ebe0">CNL</title>
+                        <biblScope xml:id="biblScope_89481943d2e">543</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e15081472">
+                  <genre xml:id="genre_bae88934">letter</genre>
+                  <author xml:id="author_c7f5bbec">Carl Nielsen</author>
+                  <recipient xml:id="recipient_f321ecb0">Anne Marie and Emil Telmányi</recipient>
+                  <creation xml:id="creation_41aed382">
+                     <date isodate="1925-01-13" xml:id="date_31fa0260">1925-01-13</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_fc10eee5">
+                     <repository xml:id="repository_21bd66cc">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_a44bf8dd">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_3fd5fbcd">CNS</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_7bdbdc87">
+                     <bibl label="" xml:id="bibl_d1e15421505">
+                        <title xml:id="title_14351b70">CNB</title>
+                        <biblScope xml:id="biblScope_eecb1475">VIII/205</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e15541516">
+                  <genre xml:id="genre_a4860ca6">letter</genre>
+                  <author xml:id="author_edc50582">Carl Nielsen</author>
+                  <recipient xml:id="recipient_1fc40fa0">Alexander Stoffregen</recipient>
+                  <creation xml:id="creation_f8a6cddb">
+                     <date isodate="1925-06" xml:id="date_0af2e458">1925-06-??</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_01be0d4b">
+                     <repository xml:id="repository_94bf3cdc">
+                        <corpName xml:id="corpName_8a731fc5">privately owned</corpName>
+                     </repository>
+                     <identifier xml:id="identifier_4de1ce1e"/>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_2c588e33">
+                     <bibl label="" xml:id="bibl_d1e15871548">
+                        <title xml:id="title_6d375354">CNB</title>
+                        <biblScope xml:id="biblScope_234e6fc4">VIII/371</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_3c4247ba">
+                  <genre xml:id="genre_a9306270">letter</genre>
+                  <author xml:id="author_3b60b931">Johanne Stockmarr</author>
+                  <recipient xml:id="recipient_9c72c0f2">Carl Nielsen</recipient>
+                  <creation xml:id="creation_352ef8f4">
+                     <date isodate="1929-08-07" xml:id="date_848455c6">1929-08-07</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_97f0249d">
+                     <repository xml:id="repository_11478491">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_9e1d4ee6">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_d6afc273">CNA IAb</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_a2c56e18">
+                     <bibl label="" xml:id="bibl_951N204A8">
+                        <title xml:id="title_82f47274">CNB</title>
+                        <biblScope xml:id="biblScope_86939e00">X/701</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_89e5b4b8">
+                  <genre xml:id="genre_76872110">letter</genre>
+                  <author xml:id="author_4d2363a2">Carl Nielsen</author>
+                  <recipient xml:id="recipient_c5b6645c">Wilhelm Hansen</recipient>
+                  <creation xml:id="creation_cc4e915d">
+                     <date isodate="1930-10-06" xml:id="date_8de8bac5">1930-10-06</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_2ce171ca">
+                     <repository xml:id="repository_31b2920b">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_4a49836c">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_e0c25675">WHA</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_1e441e43">
+                     <bibl label="" xml:id="bibl_951N204D5">
+                        <title xml:id="title_6ab2726f">CNB</title>
+                        <biblScope xml:id="biblScope_b7d955be">XI/305</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_89438129297">
+                     <bibl label="" xml:id="bibl_8942df84e7d">
+                        <title xml:id="title_894ccebb5e4">CNL</title>
+                        <biblScope xml:id="biblScope_894172c5c79">701</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_0adcd273">
+                  <genre xml:id="genre_2813813c">letter</genre>
+                  <author xml:id="author_efd4e744">Ingemar Liljefors</author>
+                  <recipient xml:id="recipient_0dc19416">Carl Nielsen</recipient>
+                  <creation xml:id="creation_75f8fa48">
+                     <date isodate="1931-06-06" xml:id="date_89f206db">1931-06-06</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_e59028b1">
+                     <repository xml:id="repository_68ba12d4">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_676d687d">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_133eb8fe">CNA IAb</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_3100610c">
+                     <bibl label="" xml:id="bibl_951N20502">
+                        <title xml:id="title_2d07a865">CNB</title>
+                        <biblScope xml:id="biblScope_a1b549ba">XI/620</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_d1e15981559">
+                  <genre xml:id="genre_be4dbf48">diary entry</genre>
+                  <creation xml:id="creation_6c212abf">
+                     <date isodate="1925-01-12" xml:id="date_aa17af15">1925-01-12</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_46dabdbd">
+                     <repository xml:id="repository_81b3fd5a">
+                        <identifier auth.uri="http://www.rism.info/" auth="RISM" xml:id="identifier_4e1fe536">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_cd1be163">CNA IC</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_c374b121">
+                     <bibl label="" xml:id="bibl_d1e16271588">
+                        <title xml:id="title_c0496fe0">CNB</title>
+                        <biblScope xml:id="biblScope_9873bd6e">VIII/202</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_eced77c3">
+                     <bibl label="" xml:id="bibl_d1e16401600">
+                        <title xml:id="title_0d1ceea0">T Sch</title>
+                        <biblScope xml:id="biblScope_d03e0b70">476</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_a783f026">
+                  <genre xml:id="genre_4a2d519c">interview</genre>
+                  <genre xml:id="genre_a0ad093b">newspaper</genre>
+                  <author type="interviewer" xml:id="author_2fc7ea4d">Ax. K. [Axel Kjerulf]</author>
+                  <author type="interviewee" xml:id="author_280adcfe">Carl Nielsen</author>
+                  <title level="a" xml:id="title_2b3945f6">Carl Nielsens Symfoni-Koncert</title>
+                  <title level="j" xml:id="title_ce4a6155">Politiken</title>
+                  <imprint xml:id="imprint_d57bd9ce">
+                     <date isodate="1917-11-27" xml:id="date_b657b2b7">1917-11-27</date>
+                  </imprint>
+                  <relatedItem rel="host" xml:id="relatedItem_8449fad9">
+                     <bibl label="" xml:id="bibl_951N20554">
+                        <title xml:id="title_a030375c">Samtid</title>
+                        <biblScope xml:id="biblScope_8fa97cda">56</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+               <bibl label="" xml:id="bibl_72f54956">
+                  <genre xml:id="genre_bc3d3b3b">interview</genre>
+                  <genre xml:id="genre_f6e488ee">newspaper</genre>
+                  <author type="interviewer" xml:id="author_171547be">HJ [Hjorth Clausen]</author>
+                  <author type="interviewee" xml:id="author_6c82805a">Carl Nielsen</author>
+                  <title level="a" xml:id="title_c85983bc">Carl Nielsens Koncert i Morgen</title>
+                  <title level="j" xml:id="title_fdfc9e17">Politiken</title>
+                  <imprint xml:id="imprint_332f87a8">
+                     <date isodate="1923-02-08" xml:id="date_7b08a7c5">1923-02-08</date>
+                  </imprint>
+                  <relatedItem rel="host" xml:id="relatedItem_000319b0">
+                     <bibl label="" xml:id="bibl_951N2057F">
+                        <title xml:id="title_89fcebc6">Samtid</title>
+                        <biblScope xml:id="biblScope_421f0e5b">76</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+            </biblList>
+            <biblList xml:id="listBibl_63dcdf88-692c-4107-9982-f48b12c5fa091612">
+               <head xml:id="head_482fa6ee">Bibliography</head>
+               <bibl label="" xml:id="bibl_894d54d7">
+                  <genre xml:id="genre_16f889c5">article</genre>
+                  <genre xml:id="genre_e39a3797">journal</genre>
+                  <author xml:id="author_9ce9a5b0">Knudåge Riisager</author>
+                  <title level="a" xml:id="title_f8930d5d">Carl Nielsen og samtiden</title>
+                  <title level="j" xml:id="title_1bd54fd4">Musik: Tidsskrift for Tonekunst</title>
+                  <biblScope unit="vol" xml:id="biblScope_85871570">9</biblScope>
+                  <biblScope unit="issue" xml:id="biblScope_68475cf6">6</biblScope>
+                  <biblScope unit="page" xml:id="biblScope_9ce75bf5">79–81</biblScope>
+                  <imprint xml:id="imprint_a2e34c14">
+                     <date isodate="1925-06" xml:id="date_f4f1c918">June 1925</date>
+                  </imprint>
+               </bibl>
+               <bibl label="" xml:id="bibl_07b150dc">
+                  <genre xml:id="genre_7ec9450c">book</genre>
+                  <annot xml:id="annot_d1915aa3">
+                     <p xml:id="idm637">3rd edn.</p>
+                  </annot>
+                  <title level="m" xml:id="title_8e75c647">The Grammophone Shop Encyclopedia of Recorded Music</title>
+                  <title level="s" xml:id="title_41d59625"/>
+                  <biblScope unit="page" xml:id="biblScope_c284d900">372–74</biblScope>
+                  <imprint xml:id="imprint_01e95999">
+                     <date isodate="1948" xml:id="date_ff2ec507">1948</date>
+                  </imprint>
+               </bibl>
+               <bibl label="" xml:id="bibl_252e39c5">
+                  <genre xml:id="genre_f009f4d9">article</genre>
+                  <genre xml:id="genre_4e5225eb">journal</genre>
+                  <author xml:id="author_0fa214a2">Peter Weis</author>
+                  <title level="a" xml:id="title_6194b831">At spille Carl Nielsen</title>
+                  <title level="j" xml:id="title_c3cb01e2">Dansk Musiktidsskrift</title>
+                  <biblScope unit="vol" xml:id="biblScope_e571b67f">37</biblScope>
+                  <biblScope unit="issue" xml:id="biblScope_5f9771b3">2,4</biblScope>
+                  <biblScope unit="page" xml:id="biblScope_06f29a94">29–32, 110–16</biblScope>
+                  <imprint xml:id="imprint_7a2c7296">
+                     <date isodate="1962" xml:id="date_e30e856c">Mar., May 1962</date>
+                  </imprint>
+               </bibl>
+               <bibl label="" xml:id="bibl_85aa30ed">
+                  <genre xml:id="genre_cb91cf4b">book</genre>
+                  <author xml:id="author_60234d05">Kirsten Poulson</author>
+                  <annot xml:id="annot_9428f931">
+                     <p xml:id="idm658">Specialeopgave.</p>
+                  </annot>
+                  <title level="m" xml:id="title_4a682ac8">Carl Nielsens klaverværker: bibliografisk, klaverteknisk og stilistisk belyst</title>
+                  <title level="s" xml:id="title_af44152a"/>
+                  <imprint xml:id="imprint_18e10b4a">
+                     <date isodate="1965" xml:id="date_b1ffd8e9">1965</date>
+                     <publisher xml:id="publisher_53a09934">University of Aarhus</publisher>
+                  </imprint>
+               </bibl>
+               <bibl label="" xml:id="bibl_ca86ef27">
+                  <genre xml:id="genre_f18a88a7">article</genre>
+                  <genre xml:id="genre_7feb9165">book</genre>
+                  <author xml:id="author_10b826d1">Arne Skjold Rasmussen</author>
+                  <title level="a" xml:id="title_b74ddb99">Klaverværkerne</title>
+                  <title level="m" xml:id="title_ad63a4da">Carl Nielsen: i hundredåret for hans fødsel</title>
+                  <title level="s" xml:id="title_8a5c6e41"/>
+                  <editor xml:id="editor_eead42aa">Jürgen Balzer</editor>
+                  <biblScope unit="page" xml:id="biblScope_7feaa630">55–64</biblScope>
+                  <imprint xml:id="imprint_e0df7b07">
+                     <date isodate="1965" xml:id="date_3e7a6a9d">1965</date>
+                     <pubPlace xml:id="pubPlace_670ea6ba">Copenhagen</pubPlace>
+                     <publisher xml:id="publisher_b38e0c7d">Nyt Nordisk Forlag Arnold Busck</publisher>
+                  </imprint>
+               </bibl>
+               <bibl label="" xml:id="bibl_8db18a86">
+                  <genre xml:id="genre_86d20037">article</genre>
+                  <genre xml:id="genre_72c26aea">book</genre>
+                  <author xml:id="author_963d91c3">Arne Skjold Rasmussen</author>
+                  <title level="a" xml:id="title_a357ce85">The Piano Works</title>
+                  <title level="m" xml:id="title_12a709c7">Carl Nielsen Centenary Essays</title>
+                  <title level="s" xml:id="title_7b581a36"/>
+                  <editor xml:id="editor_eeb688ca">Jürgen Balzer</editor>
+                  <biblScope unit="page" xml:id="biblScope_55256a83">57–67</biblScope>
+                  <imprint xml:id="imprint_ec2f6a4f">
+                     <date isodate="1965" xml:id="date_292ba6a3">1965</date>
+                     <pubPlace xml:id="pubPlace_3ac4bd3c">Copenhagen</pubPlace>
+                     <publisher xml:id="publisher_2ec0a8f9">Nyt Nordisk Forlag Arnold Busck</publisher>
+                  </imprint>
+               </bibl>
+               <bibl label="" xml:id="bibl_d57f47a2">
+                  <genre xml:id="genre_ea821ad6">book</genre>
+                  <author xml:id="author_d14f3294">Gabriel DiPiazza</author>
+                  <annot xml:id="annot_7f78e47c">
+                     <p xml:id="idm694">DMA dissertation.</p>
+                  </annot>
+                  <title level="m" xml:id="title_f5332e78">'Thema med Variationer', Opus 40 by Carl Nielsen: A Lecture-Recital</title>
+                  <title level="s" xml:id="title_719c03f9"/>
+                  <imprint xml:id="imprint_c2aaba35">
+                     <date isodate="1971" xml:id="date_e5e8c97b">1971</date>
+                     <publisher xml:id="publisher_e0756bb0">North Texas State University</publisher>
+                  </imprint>
+               </bibl>
+               <bibl label="" xml:id="bibl_82d73d47">
+                  <genre xml:id="genre_279ca640">book</genre>
+                  <author xml:id="author_47019ada">Mina Florence Miller</author>
+                  <annot xml:id="annot_d9b31393">
+                     <p xml:id="idm704">Ph.D. dissertation.</p>
+                  </annot>
+                  <title level="m" xml:id="title_aeca7ab6">The Solo Piano Music of Carl Nielsen: An Analysis for Performance</title>
+                  <title level="s" xml:id="title_df85bca8"/>
+                  <imprint xml:id="imprint_85b5da79">
+                     <date isodate="1978" xml:id="date_fd036258">1978</date>
+                     <publisher xml:id="publisher_fb292dd2">New York University</publisher>
+                  </imprint>
+               </bibl>
+               <bibl label="" xml:id="bibl_4a569d3e">
+                  <genre xml:id="genre_dd16fe0d">book</genre>
+                  <title level="m" xml:id="title_1c6738ea">The Complete Solo Piano Music of Carl Nielsen</title>
+                  <title level="s" xml:id="title_70b79f5b"/>
+                  <editor xml:id="editor_51b6ea57">Mina F. Miller</editor>
+                  <imprint xml:id="imprint_75471503">
+                     <date isodate="1982" xml:id="date_e5ae1e85">1982</date>
+                     <pubPlace xml:id="pubPlace_cc937179">Copenhagen</pubPlace>
+                     <publisher xml:id="publisher_f39265e3">Edition Wilhelm Hansen</publisher>
+                  </imprint>
+               </bibl>
+               <bibl label="" xml:id="bibl_f02b96f6">
+                  <genre xml:id="genre_9951da03">book</genre>
+                  <author xml:id="author_7e9d4421">Daniel M. Grimley</author>
+                  <title level="m" xml:id="title_ad950388">Carl Nielsen and the Idea of Modernism</title>
+                  <title level="s" xml:id="title_283c5696"/>
+                  <imprint xml:id="imprint_ecf742d8">
+                     <date isodate="2010" xml:id="date_ecb1a3a8">2010</date>
+                     <pubPlace xml:id="pubPlace_8a59d942">Woodbridge</pubPlace>
+                     <publisher xml:id="publisher_00b59b87">The Boydell Press</publisher>
+                  </imprint>
+               </bibl>
+            </biblList>
+            <notesStmt xml:id="notesStmt_085e3ab9">
+               <annot label="" type="links" xml:id="annot_9555758d">
+                  <ptr label="Carl Nielsen Edition" mimetype=""
+                       target="/dcm/assets/cnu/pdf/CNU_II_12_piano_and_organ_works.pdf"
+                       xml:id="ptr_fbeb16ec"/>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_9b9c6298">
+               <termList xml:id="termList_9251fab8">
+                  <term xml:id="term_fbc09f08">Instrumental music</term>
+                  <term xml:id="term_d4f6274e">Music for one instrument</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_b064bea5">
+               <expression xml:id="expression_1">
+                  <title xml:id="title_bc3b8fd9" xml:lang="da"/>
+                  <incip xml:id="incip_d69db71f">
+                     <incipText xml:id="incipText_83633bc2"/>
+                     <graphic label="" target="/dcm/assets/udgivelser/cnw/incipits/lowres/cnw_087.png"
+                              targettype="lowres"
+                              xml:id="graphic_64fe30dc"/>
+                     <graphic label="" target="/dcm/assets/udgivelser/cnw/incipits/hires/cnw_087.png"
+                              targettype="hires"
+                              xml:id="graphic_72762260"/>
+                  </incip>
+                  <tempo xml:id="tempo_f3f70e32">Andante</tempo>
+                  <meter sym="common" xml:id="meter_8e2255e6"/>
+                  <history xml:id="history_5c6ff675">
+                     <eventList type="performances" xml:id="eventList_2e114056">
+                        <event xml:id="event_d1e17431701">
+                           <date isodate=" 1917-11-29" xml:id="date_ec89d71a"> 1917-11-29</date>
+                           <geogName role="venue" xml:id="geogName_c0eac820">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_0019927c">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_4349fa38">Alexander Stoffregen, piano</persName>
+                           <desc xml:id="desc_ebc155a3">First performance.</desc>
+                           <biblList xml:id="listBibl_64baa8c9-56c9-4db7-b4ff-39698ad395161720">
+                              <head xml:id="head_edf6d75c">Reviews</head>
+                              <bibl label="" xml:id="bibl_d1e17681725">
+                                 <genre xml:id="genre_aa6c1169">article</genre>
+                                 <genre xml:id="genre_30a7c6c2">journal</genre>
+                                 <author xml:id="author_bb577007">B.W.G.</author>
+                                 <title level="a" xml:id="title_1a3496b5"/>
+                                 <title level="j" xml:id="title_c484092f">Vort Land</title>
+                                 <imprint xml:id="imprint_d1bdbf51">
+                                    <date isodate="1917-11-30" xml:id="date_e245be79">1917-11-30</date>
+                                 </imprint>
+                              </bibl>
+                              <bibl label="" xml:id="bibl_d1e18041760">
+                                 <genre xml:id="genre_39c7ed1d">article</genre>
+                                 <genre xml:id="genre_fb90a223">journal</genre>
+                                 <author xml:id="author_d653a889">Emilius Bangert</author>
+                                 <title level="a" xml:id="title_30a0cab2"/>
+                                 <title level="j" xml:id="title_ae916444">Hovedstaden</title>
+                                 <imprint xml:id="imprint_8c0a1e6c">
+                                    <date isodate="1917-11-30" xml:id="date_88bbb022">1917-11-30</date>
+                                 </imprint>
+                              </bibl>
+                              <bibl label="" xml:id="bibl_d1e18401795">
+                                 <genre xml:id="genre_e429a66d">article</genre>
+                                 <genre xml:id="genre_8dae46e8">journal</genre>
+                                 <author xml:id="author_cc1c421a">Sophus Andersen</author>
+                                 <title level="a" xml:id="title_3c65d039"/>
+                                 <title level="j" xml:id="title_ac1f19e6">København</title>
+                                 <imprint xml:id="imprint_2d9a9e39">
+                                    <date isodate="1917-11-30" xml:id="date_ec2f9626">1917-11-30</date>
+                                 </imprint>
+                              </bibl>
+                              <bibl label="" xml:id="bibl_d1e18761830">
+                                 <genre xml:id="genre_3b956e13">article</genre>
+                                 <genre xml:id="genre_d35a4b5c">journal</genre>
+                                 <author xml:id="author_533a69f7">Charles Kjerulf</author>
+                                 <title level="a" xml:id="title_3a3c7e0d"/>
+                                 <title level="j" xml:id="title_3fe7c1a7">Politiken</title>
+                                 <imprint xml:id="imprint_dde43cd6">
+                                    <date isodate="1917-11-30" xml:id="date_aba62b0c">1917-11-30</date>
+                                 </imprint>
+                              </bibl>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_af942e42">
+                           <date isodate="1919-03-27" xml:id="date_f56aa529">1919-03-27</date>
+                           <geogName role="venue" xml:id="geogName_32422f2d">Casinos Koncertsal</geogName>
+                           <geogName role="place" xml:id="geogName_33fa32db">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_bbc4d766">Christian Christiansen, piano</persName>
+                           <biblList xml:id="biblList_5ac7d040">
+                              <head xml:id="head_54b86ad8">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_9118f2c4">
+                              <head xml:id="head_cb4e9228">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_2fd3e664">
+                           <date isodate="1923-02-14" xml:id="date_7560a9c4">1923-02-14</date>
+                           <geogName role="venue" xml:id="geogName_7fbbbd99">Beethoven-Saal</geogName>
+                           <geogName role="place" xml:id="geogName_cacade3f">Berlin</geogName>
+                           <persName role="performer" xml:id="persName_d1be4c87">Rudolph Schmidt, piano</persName>
+                           <biblList xml:id="biblList_c623e062">
+                              <head xml:id="head_d17368b4">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_6777ef27">
+                              <head xml:id="head_19914fae">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_e3ba82ef">
+                           <date isodate="1923-11-27" xml:id="date_af2fbe4f">1923-11-27</date>
+                           <geogName role="venue" xml:id="geogName_271df59e"/>
+                           <geogName role="place" xml:id="geogName_5d97419f">Paris</geogName>
+                           <persName role="performer" xml:id="persName_9884c8e4">Christian Christiansen, piano</persName>
+                           <biblList xml:id="biblList_255fd2c9">
+                              <head xml:id="head_4646e588">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_4565c83b">
+                              <head xml:id="head_c373f57c">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_951833b8">
+                           <date isodate="1925-01-12" xml:id="date_5d343487">1925-01-12</date>
+                           <geogName role="venue" xml:id="geogName_b712520b">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_9a138b77">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_51ba3de3">Carl Vorm, piano</persName>
+                           <biblList xml:id="biblList_b37781c9">
+                              <head xml:id="head_0d911668">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_a3f8fc42">
+                              <head xml:id="head_dd1b9cab">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_7cb4fcce">
+                           <date isodate="1925-03-18" xml:id="date_4d691a81">1925-03-18</date>
+                           <geogName role="venue" xml:id="geogName_b34f4c83">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_900cc637">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_e3e9a325">Alma Glöy, piano</persName>
+                           <biblList xml:id="biblList_3d5e66d4">
+                              <head xml:id="head_4c90e8c2">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_9efa2428">
+                              <head xml:id="head_c950cba4">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_86a86d60">
+                           <date isodate="1925-06-30" xml:id="date_f815940d">1925-06-30</date>
+                           <geogName role="venue" xml:id="geogName_656284fa">Tivoli Concert Hall (Tivolis Koncertsal)</geogName>
+                           <geogName role="place" xml:id="geogName_462e0eb2">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_90d7a9c8">Anna Høy, piano</persName>
+                           <biblList xml:id="biblList_b43b9fa1">
+                              <head xml:id="head_c31d922c">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_61003082">
+                              <head xml:id="head_626884fb">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_103f6321">
+                           <date isodate="1925-10-28" xml:id="date_4e69227b">1925-10-28</date>
+                           <geogName role="venue" xml:id="geogName_55794b9b">Haandværkerforeningens Festsal</geogName>
+                           <geogName role="place" xml:id="geogName_ffd53292">Aarhus</geogName>
+                           <persName role="performer" xml:id="persName_b08f0f39">Hr. Skytte Birkefeldt, piano</persName>
+                           <biblList xml:id="biblList_40a9b29e">
+                              <head xml:id="head_33f57311">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_3dd4f585">
+                              <head xml:id="head_a32db5b7">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_7c7ef40f">
+                           <date isodate="1925-12-03" xml:id="date_03b8582f">1925-12-03</date>
+                           <geogName role="venue" xml:id="geogName_2018a21e">University of Copenhagen</geogName>
+                           <geogName role="place" xml:id="geogName_8a93b0f9">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_65a87bdf">Christian Christiansen/Johanne Stockmarr, piano</persName>
+                           <biblList xml:id="biblList_6922bb54">
+                              <head xml:id="head_572afde4">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_f94624b5">
+                              <head xml:id="head_abc82750">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_966e3567">
+                           <date isodate="1926-01-23" xml:id="date_77fcdec4">1926-01-23</date>
+                           <geogName role="venue" xml:id="geogName_0c53469c">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_a0954ce0">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_a0d095b8">Rudolph Schmidt, piano</persName>
+                           <biblList xml:id="biblList_75a6b221">
+                              <head xml:id="head_a054c179">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_7a56f243">
+                              <head xml:id="head_cd312f92">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_3a310b2b">
+                           <date isodate="1926-03-20" xml:id="date_f677c501">1926-03-20</date>
+                           <geogName role="venue" xml:id="geogName_808d3db7">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_30b948c4">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_a1cf0518">Holger Lund-Christiansen, piano</persName>
+                           <biblList xml:id="biblList_05dcd5ca">
+                              <head xml:id="head_b3a4115a">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_31d055fb">
+                              <head xml:id="head_40edf3c7">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_10dbefc7">
+                           <date isodate="1926-04-24" xml:id="date_4db2341d">1926-04-24</date>
+                           <geogName role="venue" xml:id="geogName_0a237087">Domus Medica</geogName>
+                           <geogName role="place" xml:id="geogName_dfc6bafd">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_b1d4e476">Carl Worm, piano</persName>
+                           <biblList xml:id="biblList_a2c49ea9">
+                              <head xml:id="head_61b66ec4">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_f64d5be3">
+                              <head xml:id="head_3c87fc9c">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_3ab1dbaa">
+                           <date isodate="1926-10-23" xml:id="date_56031b0e">1926-10-23</date>
+                           <geogName role="venue" xml:id="geogName_64f09c35">Musikkonservatoriets sal</geogName>
+                           <geogName role="place" xml:id="geogName_fbdba3c7">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_d9522c69">Helge Nørgaard, piano</persName>
+                           <biblList xml:id="biblList_27171e8c">
+                              <head xml:id="head_8ba0f0d3">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_a42c87be">
+                              <head xml:id="head_48cba672">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_bf669321">
+                           <date isodate="1926-11-28" xml:id="date_e5b3e54a">1926-11-28</date>
+                           <geogName role="venue" xml:id="geogName_c26fb4bd">Folmer Bonnéns Maleskole, Sjæleboderne</geogName>
+                           <geogName role="place" xml:id="geogName_920c37ea">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_20cd42de">Johanne Stockmarr/Carl Worm, piano(?)</persName>
+                           <biblList xml:id="biblList_54884ae0">
+                              <head xml:id="head_b0cbbc91">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_b9566eaa">
+                              <head xml:id="head_d63b77c9">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_aa930420">
+                           <date isodate="1927-05-14" xml:id="date_f9b6a7a8">1927-05-14</date>
+                           <geogName role="venue" xml:id="geogName_b0afa34c">Konservatoriet</geogName>
+                           <geogName role="place" xml:id="geogName_abe2530a">Stockholm</geogName>
+                           <persName role="performer" xml:id="persName_48ee84c6">Gunnar de Frumerie, piano</persName>
+                           <biblList xml:id="biblList_0cc5a509">
+                              <head xml:id="head_e957015a">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_8d8ef743">
+                              <head xml:id="head_049d5b6b">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_6b79bfe0">
+                           <date isodate="1928-11-12" xml:id="date_46b43d1a">1928-11-12</date>
+                           <geogName role="venue" xml:id="geogName_9db77976">Industripalæet</geogName>
+                           <geogName role="place" xml:id="geogName_88c18ae2">Odense</geogName>
+                           <persName role="performer" xml:id="persName_c89e926b">Olga Rasmussen, piano</persName>
+                           <biblList xml:id="biblList_aa552c40">
+                              <head xml:id="head_d161f8dc">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_443c2696">
+                              <head xml:id="head_a74df8d8">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_dd3f852a">
+                           <date isodate="1928-11-14" xml:id="date_78bbf0fb">1928-11-14</date>
+                           <geogName role="venue" xml:id="geogName_90cdaf86">Radiostudie(?)</geogName>
+                           <geogName role="place" xml:id="geogName_6f31bbcd">Warsaw</geogName>
+                           <corpName role="ensemble" xml:id="corpName_e2c66174">Radioorkester (?)</corpName>
+                           <biblList xml:id="biblList_30a10935">
+                              <head xml:id="head_ea79eec8">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_ee4c694e">
+                              <head xml:id="head_d099eacb">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_66d953d0">
+                           <date isodate="1929-04-10" xml:id="date_c6422815">1929-04-10</date>
+                           <geogName role="venue" xml:id="geogName_26816c04">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_811d224c">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_7b3b85a9">Rudolf Jensen, piano</persName>
+                           <biblList xml:id="biblList_e03c75a0">
+                              <head xml:id="head_a1741010">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_92d6d797">
+                              <head xml:id="head_dafa07b4">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_90a30386">
+                           <date isodate="1930-03-17" xml:id="date_3603f05e">1930-03-17</date>
+                           <geogName role="venue" xml:id="geogName_7c266763">Musikkonservatoriets Sal</geogName>
+                           <geogName role="place" xml:id="geogName_0b46a26e">Copenhagen</geogName>
+                           <persName role="conductor" xml:id="persName_017c3db7">Herman D. Koppel, piano</persName>
+                           <biblList xml:id="biblList_02d9064a">
+                              <head xml:id="head_1faa654e">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_292d4b0d">
+                              <head xml:id="head_ca0cad96">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_26035ac1">
+                           <date isodate="1930-10-15" xml:id="date_6e9511a5">1930-10-15</date>
+                           <geogName role="venue" xml:id="geogName_de04f213">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_5a63f431">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_71498a14">Haraldur Sigurdsson, piano</persName>
+                           <biblList xml:id="biblList_0135770b">
+                              <head xml:id="head_af12d225">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_31c1e7f5">
+                              <head xml:id="head_93e243c2">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_00511f03">
+                           <date isodate="1930-10-23" xml:id="date_b50be75e">1930-10-23</date>
+                           <geogName role="venue" xml:id="geogName_4c5e77fb">Copenhagen Academy of Music (Københavns Musikkonservatorium)</geogName>
+                           <geogName role="place" xml:id="geogName_12c79efc">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_bdbc76bd">Haraldur Sigurdsson, piano</persName>
+                           <biblList xml:id="biblList_86faf568">
+                              <head xml:id="head_6c89e8db">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_ee73be2d">
+                              <head xml:id="head_9c2c2ccf">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_26030f02">
+                           <date isodate="1930-10-27" xml:id="date_24debdfe">1930-10-27</date>
+                           <geogName role="venue" xml:id="geogName_72c1cf17">Copenhagen Academy of Music (Københavns Musikkonservatorium)</geogName>
+                           <geogName role="place" xml:id="geogName_0337f6d1">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_f9e79cbc">Herman Koppel, piano</persName>
+                           <biblList xml:id="biblList_d534c340">
+                              <head xml:id="head_294e70f3">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_b0885d10">
+                              <head xml:id="head_bf64ba42">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_6375daa5">
+                           <date isodate="1931-01-08" xml:id="date_357a152f">1931-01-08</date>
+                           <geogName role="venue" xml:id="geogName_96a196ef">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_03295885">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_2ecc5c0f">Agnete Foght, piano</persName>
+                           <biblList xml:id="biblList_a04d11b2">
+                              <head xml:id="head_8222c65e">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_160f0598">
+                              <head xml:id="head_444a9c15">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_a515e448">
+                           <date isodate="1931-03-19" xml:id="date_c5fa55a7">1931-03-19</date>
+                           <geogName role="venue" xml:id="geogName_fa7061fa">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_827d6dab">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_a573097c">Hans Hammer, piano</persName>
+                           <biblList xml:id="biblList_7a9b692e">
+                              <head xml:id="head_82de25f5">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_81bc75df">
+                              <head xml:id="head_71fe4124">Evidence</head>
+                           </biblList>
+                        </event>
+                     </eventList>
+                     <p xml:id="idm1001"/>
+                  </history>
+                  <perfMedium analog="marc:048" xml:id="perfMedium_e751f88e">
+                     <perfResList xml:id="perfResList_833469e2">
+                        <perfRes codedval="ka" count="1" solo="false" xml:id="perfRes_b0e71853">pf.</perfRes>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_7c7eb9ed">
+         <manifestation label="" xml:id="source_d1e36">
+            <identifier label="CNU Source" xml:id="identifier_c5eced47">A</identifier>
+            <titleStmt xml:id="titleStmt_60233c7f">
+               <title xml:id="title_c7b3f62b">Score, print</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_17d30adc">
+               <publisher xml:id="publisher_2de3e774">Wilhelm Hansen</publisher>
+               <pubPlace xml:id="pubPlace_fe8095a7">Copenhagen</pubPlace>
+               <date isodate="1920" xml:id="date_cf43179a">1920</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_71122415">
+               <titlePage label="Title page" xml:id="titlePage_f9e22fc8">
+                  <p xml:id="idm46">Wilhelm Hansen Edition. Nr. 2035. / Thema med Variationer / for Piano-Forte / af / Carl Nielsen / Op. 40. / […] / KØBENHAVN &amp; LEIPZIG / WILHELM HANSEN, MUSIKFORLAG / […] /</p>
+               </titlePage>
+            </physDesc>
+            <classification xml:id="classification_30f48c01">
+               <termList xml:id="termList_651345dc">
+                  <term class="#DcmContentClass" xml:id="term_9f979436">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_f28b6b5e">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_ba68f403">copy</term>
+                  <term class="#DcmScoringClass" xml:id="term_0e36acba">score</term>
+                  <term class="#DcmStateClass" xml:id="term_072acc20">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_9d321bc2">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_852eb47c"/>
+            <relationList xml:id="relationList_da1e4b3a">
+               <relation label="" rel="isEmbodimentOf" target="#expression_1" xml:id="relation_25a74cfc"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm1005">
+         <change isodate="2011-10-13" xml:id="change_d1e19561909">
+            <respStmt xml:id="respStmt_d67aefac">
+               <name xml:id="resp_1ddb85dd">ebp</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_4563ff57">
+               <p xml:id="p_aa63b971">tab.1</p>
+            </changeDesc>
+         </change>
+         <change isodate="2013-09-03" xml:id="change_692d1e975">
+            <respStmt xml:id="respStmt_7851ee0a">
+               <name xml:id="resp_922bcb54">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_ad80381b">
+               <p xml:id="p_0e7a75b7">Automated conversion from MEI 2012 to MEI 2013</p>
+            </changeDesc>
+         </change>
+         <change isodate="2013-12-12" xml:id="change_ff9443bf">
+            <respStmt xml:id="respStmt_b359032a">
+               <name xml:id="resp_ea622240">ninh</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2917f884">
+               <p xml:id="p_e276a186"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-04-04" xml:id="change_f686c4fe">
+            <respStmt xml:id="respStmt_cff40dde">
+               <name xml:id="resp_86152d6f">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_1c65d131">
+               <p xml:id="p_7998723d"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-05-05" xml:id="change_747N20621">
+            <respStmt xml:id="respStmt_373d4200">
+               <name xml:id="resp_34229484">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_525bc16e">
+               <p xml:id="p_4e4a0626"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-05-06" xml:id="change_ddb510d5">
+            <respStmt xml:id="respStmt_fd83def1">
+               <name xml:id="resp_abbb427d">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_696dbbfb">
+               <p xml:id="p_a68667d0"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-05-20" xml:id="change_4d627eeb">
+            <respStmt xml:id="respStmt_db6ba56d">
+               <name xml:id="resp_e238957b">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_64d99726">
+               <p xml:id="p_27236053"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-06-06" xml:id="change_67c708c3">
+            <respStmt xml:id="respStmt_508d930d">
+               <name xml:id="resp_709bfc90">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_4f697999">
+               <p xml:id="p_a3bc6724"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-07-17" xml:id="change_bde201b7">
+            <respStmt xml:id="respStmt_e6a77a13">
+               <name xml:id="resp_8c19e0d6">ninh</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_9407124e">
+               <p xml:id="p_e0a3b270"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-08-22" xml:id="change_734N20674">
+            <respStmt xml:id="respStmt_f13c2bf4">
+               <name xml:id="resp_2117b721">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_4de06139">
+               <p xml:id="p_44e880a3"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-09-05" xml:id="change_730N20667">
+            <respStmt xml:id="respStmt_64843015">
+               <name xml:id="resp_d1b148a2">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_627d5af0">
+               <p xml:id="p_be8412b2"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-11-20" xml:id="change_730d1e1032">
+            <respStmt xml:id="respStmt_9372d0f7">
+               <name xml:id="resp_633e2442">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8e72c148">
+               <p xml:id="p_3e43fc16">Batch transformation moving identifier/@type data to @label</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-11-20" xml:id="change_733d1e1032">
+            <respStmt xml:id="respStmt_b6dbc4ce">
+               <name xml:id="resp_fd1012be">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_691dc31e">
+               <p xml:id="p_42f497fc">Batch transformation ensuring correct order of elements in source, work and biblList</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-11-20" xml:id="change_736d1e1032">
+            <respStmt xml:id="respStmt_2bd1ba7a">
+               <name xml:id="resp_44eba5e8">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2b936478">
+               <p xml:id="p_9b7fbff0">Batch transformation removing duplicate IDs and fixing other issues</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-12-19" xml:id="change_3d44a299">
+            <respStmt xml:id="respStmt_a55921dd">
+               <name xml:id="resp_6e959f7a">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3f9c5e0d">
+               <p xml:id="p_5fd203ea"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-06-04" xml:id="change_878N207AC">
+            <respStmt xml:id="respStmt_6f2274d2">
+               <name xml:id="resp_9689f58c">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_a6d0cca1">
+               <p xml:id="p_781db493"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-08-18" xml:id="change_881N207B2">
+            <respStmt xml:id="respStmt_e9d513ae">
+               <name xml:id="resp_1aa4f0e7">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2d49728c">
+               <p xml:id="p_835a233c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-09-15" xml:id="change_b110587e">
+            <respStmt xml:id="respStmt_8bbadab7">
+               <name xml:id="resp_f3f0b64e">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_36532eff">
+               <p xml:id="p_f943c38d"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-11-12" xml:id="change_bc331fe1">
+            <respStmt xml:id="respStmt_b8991b64">
+               <name xml:id="resp_d32fa963">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_7833ca5c">
+               <p xml:id="p_23a6c4ba"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-01" xml:id="change_928N20814">
+            <respStmt xml:id="respStmt_610557d3">
+               <name xml:id="resp_a7fe4d6f">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_08c965bf">
+               <p xml:id="p_509ad868"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_928idm140635689879408">
+            <respStmt xml:id="respStmt_5829bd26">
+               <name xml:id="resp_0dccca06">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_1702349a">
+               <p xml:id="p_9973f773">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_938d1e1313">
+            <respStmt xml:id="respStmt_7982cc51">
+               <name xml:id="resp_96ebb78b">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_7b719691">
+               <p xml:id="p_5b46dc70">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-05-11" xml:id="change_934N10838">
+            <respStmt xml:id="respStmt_d78cd4e6">
+               <name xml:id="resp_cecc9c41">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_1f5c5e94">
+               <p xml:id="p_22948c63"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-06-24" xml:id="change_83d36dfc">
+            <respStmt xml:id="respStmt_18142307">
+               <name xml:id="resp_ec49d358">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_7a9ddc1d">
+               <p xml:id="p_c6d9b3f8"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-04" n="25" xml:id="change_b8eceb7c">
+            <respStmt xml:id="respStmt_a9a5adf5">
+               <name xml:id="resp_057ba5a4">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d07049fc">
+               <p xml:id="p_8d1bbaa6">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-05T18:03:03+01:00" xml:id="change_1015N10A42">
+            <respStmt xml:id="respStmt_62bb5677">
+               <name xml:id="resp_90c53600">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b32cbea8">
+               <p xml:id="p_4c4eccd3">Mail address updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-14T16:33:01+01:00" xml:id="change_1020N10A42">
+            <respStmt xml:id="respStmt_2a617d60">
+               <name xml:id="resp_800826b3">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_ca373966">
+               <p xml:id="p_6da00308">Batch transformation removing empty elements</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-04T09:45:56+01:00" xml:id="change_8944ce7ab60">
+            <respStmt xml:id="respStmt_894743e02ab">
+               <name xml:id="resp_2298decd">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_894c66e4a18">
+               <p xml:id="p_4c4bb146">10 CNL references added automatically</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-02-05T14:41:30.474Z" xml:id="change_bea356ab">
+            <respStmt xml:id="respStmt_7d651330">
+               <name xml:id="resp_2da49bef">llue</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_6ee466ef">
+               <p xml:id="p_6e6ede6f"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-05-03T09:20:09.659Z" xml:id="change_1cfc227c">
+            <respStmt xml:id="respStmt_2ea3ecde">
+               <name xml:id="resp_8ddd0590">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_49a5f002">
+               <p xml:id="p_382a23c6"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-06-24T10:57:20.543Z" xml:id="change_9dccdb30">
+            <respStmt xml:id="respStmt_db8b93f1">
+               <name xml:id="resp_ff1c57cb">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3abb7f72">
+               <p xml:id="p_05a364a9"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-08-21T11:14:28.852Z" xml:id="change_d85e6bc0">
+            <respStmt xml:id="respStmt_ff09b2ab">
+               <name xml:id="resp_ee77c85a">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_0877e0fb">
+               <p xml:id="p_cc55c96c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-08-22T08:32:10.271Z" xml:id="change_2eb81cb4">
+            <respStmt xml:id="respStmt_3386046f">
+               <name xml:id="resp_c16a23de">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_81c81276">
+               <p xml:id="p_1447be3c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-08-27T11:54:09.119Z" xml:id="change_67b2fed4">
+            <respStmt xml:id="respStmt_610c3011">
+               <name xml:id="resp_0c41e8e0">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_bce8520e">
+               <p xml:id="p_b6b87b34"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-10-16T12:40:10.174Z" xml:id="change_1efcd45b">
+            <respStmt xml:id="respStmt_7811116e">
+               <name xml:id="resp_4b758ac2">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3cba3cf6">
+               <p xml:id="p_6c7b1119"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-10-23T11:53:10.667Z" xml:id="change_8cb78e18">
+            <respStmt xml:id="respStmt_42d4f857">
+               <name xml:id="resp_c1c2120e">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_5f2165d1">
+               <p xml:id="p_bd899d23"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T15:00:14Z" xml:id="change_1069N10A8C">
+            <respStmt xml:id="respStmt_72a373d3">
+               <name xml:id="resp_8d57ee22">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b0a1c8bc">
+               <p xml:id="p_6dc91f43">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-27T12:18:17.412Z" xml:id="change_fde7d406">
+            <respStmt xml:id="respStmt_01e6b02a">
+               <name xml:id="resp_04d56176">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_1615332f">
+               <p xml:id="p_5131be22"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-12-11T12:30:51.815Z" xml:id="change_5b04f09c">
+            <respStmt xml:id="respStmt_89fe5e12">
+               <name xml:id="resp_288a4d02">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_fd59b81b">
+               <p xml:id="p_e8979167"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-12-12T13:19:09.206Z" xml:id="change_de81dec9">
+            <respStmt xml:id="respStmt_641e1527">
+               <name xml:id="resp_c14f5ee8">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_31ae0250">
+               <p xml:id="p_f99187c0"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-12-12T14:57:28.86Z" xml:id="change_c8f393eb">
+            <respStmt xml:id="respStmt_d6145077">
+               <name xml:id="resp_c6963f50">llue</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_7d814fcd">
+               <p xml:id="p_7aef6578"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-12-16T14:26:09.396Z" xml:id="change_61c952e2">
+            <respStmt xml:id="respStmt_f7fb5d6b">
+               <name xml:id="resp_61abd9c4">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_db273e4d">
+               <p xml:id="p_01486da3"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-12-17T14:42:11.409Z" xml:id="change_822a6c17">
+            <respStmt xml:id="respStmt_08ecc98c">
+               <name xml:id="resp_64352208">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_e43551b3">
+               <p xml:id="p_5d7bcb13"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-12-18T14:56:09.907Z" xml:id="change_b785f108">
+            <respStmt xml:id="respStmt_485fa55c">
+               <name xml:id="resp_bd42fe05">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_27cc0513">
+               <p xml:id="p_f3a2f999"/>
+            </changeDesc>
+         </change>
+         <change isodate="2020-01-15T17:29:35.307Z" xml:id="change_c03b7684">
+            <respStmt xml:id="idm1227">
+               <name xml:id="idm1228">Llue</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_60c78aab">
+               <p xml:id="p_b3a5c05c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_1231d1e1604">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_1234d1e1602">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm1231"/>
+</mei>

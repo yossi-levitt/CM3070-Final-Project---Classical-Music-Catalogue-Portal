@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_idm140188456757184">
+   <meiHead xml:id="meiHead_3cf3bda1">
+      <fileDesc xml:id="fileDesc_33de9fcf">
+         <titleStmt xml:id="titleStmt_02349314">
+            <title xml:id="title_9564c698" xml:lang="da">Ariels Sang</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_342cd8fd">
+            <respStmt xml:id="respStmt_177N2000F">
+               <resp xml:id="resp_7e93894d">Publisher</resp>
+               <corpName xml:id="corpName_177N20013">
+                  <abbr xml:id="abbr_f00072f6">DCM</abbr>
+                  <expan xml:id="expan_d23394b5">Danish Centre for Music Editing</expan>
+                  <address xml:id="address_d65517b7">
+                     <addrLine xml:id="addrLine_e53919f2">Royal Danish Library</addrLine>
+                     <addrLine xml:id="addrLine_95ddb99d">Søren Kierkegaards Plads 1</addrLine>
+                     <addrLine xml:id="addrLine_cf5b99ba">P.O. Box 2149</addrLine>
+                     <addrLine xml:id="addrLine_2eb42a30">DK - 1016 Copenhagen K</addrLine>
+                     <addrLine xml:id="addrLine_658849fa">
+                        <ptr label="WWW" target="https://www.kb.dk" xml:id="ptr_N202B4"/>
+                     </addrLine>
+                     <addrLine xml:id="addrLine_7f3c2323">
+                        <ptr label="E-mail" target="mailto://kb@kb.dk" xml:id="ptr_N202B8"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_177N2002B">Niels Bo Foltmann</persName>
+               <persName role="editor" xml:id="persName_177N2002F">Axel Teich Geertinger</persName>
+               <persName role="editor" xml:id="persName_177N20033">Peter Hauge</persName>
+               <persName role="editor" xml:id="persName_177N20037">Niels Krabbe</persName>
+               <persName role="editor" xml:id="persName_233idm140379295820864">Bjarke Moe</persName>
+               <persName role="editor" xml:id="persName_177N2003B">Elly Bruunshuus Petersen</persName>
+               <persName role="programmer" xml:id="persName_37178d84">Sigfrid Lundberg</persName>
+               <persName role="secretary" xml:id="persName_779d470d">Katarina Smitt Engberg</persName>
+               <persName role="secretary" xml:id="persName_83e35ea8">Niclas Nørby Hundahl</persName>
+            </respStmt>
+            <date isodate="2014" xml:id="date_13b84c87">2014</date>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_c14c6cb8">
+            <title xml:id="title_177N20049">Carl Nielsen Works</title>
+            <identifier type="file_collection" xml:id="identifier_177N2004D">CNW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_5e8b0aed">
+         <appInfo xml:id="appInfo_5358e232">
+            <application version="2013" xml:id="application_59dfc913">
+               <name xml:id="name_838cdbc0">MerMEId</name>
+               <ptr label="MerMEId project home page"
+                    target="http://www.kb.dk/en/nb/dcm/projekter/mermeid.html"
+                    xml:id="ptr_N20383"/>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_177N20097">
+            <p xml:id="idm85">Metadata created using MerMEId 2013.</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_5c588e4d">
+         <work xml:id="work_d1e191187">
+            <identifier label="CNW" xml:id="identifier_00cdf2a3">302</identifier>
+            <identifier label="CNU" xml:id="identifier_99e288f7">III/5, 237</identifier>
+            <identifier label="CNS" xml:id="identifier_48c06ae8">327</identifier>
+            <identifier label="FS" xml:id="identifier_6755baf5">80</identifier>
+            <title xml:id="title_177N200A9" xml:lang="da">Ariels Sang</title>
+            <title xml:id="title_177N200AD" xml:lang="en">Ariel's Song</title>
+            <title type="alternative" xml:id="title_177N200B2" xml:lang="da">Selv naar Tordenen tynger</title>
+            <title type="alternative" xml:id="title_177N200B7" xml:lang="en">E'en when tempest oppresses</title>
+            <title type="uniform" xml:id="title_38431fbe" xml:lang="da">Selv når tordenen tynger</title>
+            <contributor xml:id="respStmt_baf4a1ab">
+               <persName role="composer" xml:id="persName_177N200BD">Carl Nielsen</persName>
+               <persName role="author" xml:id="persName_177N200C1">Helge Rode</persName>
+            </contributor>
+            <creation xml:id="creation_177N200C6">
+               <date isodate="1916" xml:id="date_8b400a29">1916</date>
+            </creation>
+            <history xml:id="history_177N200C4">
+               <p xml:id="idm104">
+                  <rend xml:id="idm105" fontstyle="italic">Ariels Sang</rend> was originally part of Nielsen's music to Helge Rode's prologue <ref xmlns:xl="http://www.w3.org/1999/xlink" xml:id="idm106"
+                       target="document.xq?doc=cnw0015.xml"
+                       xl:show="replace"
+                       label="">
+                     <rend xml:id="idm107" fontstyle="italic">Shakespeare</rend> (CNW 15)</ref>, which was performed three times in June and July 1916. In October that year, a version of the song for voice and piano was published.</p>
+            </history>
+            <langUsage xml:id="langUsage_8a0fe563">
+               <language xml:id="da">Danish</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <biblList xml:id="biblList_286N20165">
+               <head xml:id="head_9b661184">Documents</head>
+               <bibl label="" xml:id="bibl_8cf01fb8">
+                  <genre xml:id="genre_a791aef6">letter</genre>
+                  <author xml:id="author_14d12cc2">Carl Nielsen</author>
+                  <recipient xml:id="recipient_668b5040">Wilhelm Hansen</recipient>
+                  <creation xml:id="creation_56c8fbe5">
+                     <date isodate="1930-10-06" xml:id="date_86077d5c">1930-10-06</date>
+                  </creation>
+                  <physLoc xml:id="physLoc_b1d984b0">
+                     <repository xml:id="repository_22d78088">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_ede2d6d1">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_7a72d898">WHA</identifier>
+                  </physLoc>
+                  <relatedItem rel="host" xml:id="relatedItem_d340d90d">
+                     <bibl label="" xml:id="bibl_286N2018E">
+                        <title xml:id="title_15960b03">CNB</title>
+                        <biblScope xml:id="biblScope_7aa3547a">XI/305</biblScope>
+                     </bibl>
+                  </relatedItem>
+                  <relatedItem rel="host" xml:id="relatedItem_30752cac3cb">
+                     <bibl label="" xml:id="bibl_307e74755be">
+                        <title xml:id="title_307d82a8f76">CNL</title>
+                        <biblScope xml:id="biblScope_307cfb0a5b8">701</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+            </biblList>
+            <notesStmt xml:id="notesStmt_b75fd46b">
+               <annot label="" type="links" xml:id="annot_177N200E2">
+                  <ptr label="Carl Nielsen Edition (Editorial Texts)" mimetype=""
+                       target="/dcm/assets/cnu/pdf/CNU_III_07_songs_4.pdf"
+                       xml:id="ptr_26a1d7ea"/>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_2b4dd63e">
+               <termList xml:id="termList_fa572e69">
+                  <term xml:id="term_3e7f77ff">Vocal music</term>
+                  <term xml:id="term_c7300501">Song</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_6a8539bb">
+               <expression xml:id="expression_1">
+                  <title xml:id="title_177N20107" xml:lang="da"/>
+                  <incip xml:id="incip_177N2010E">
+                     <incipText xml:id="incipText_177N20110">
+                        <p xml:id="p_99545140" xml:lang="da">Selv naar Tordenen tynger</p>
+                        <p xml:id="p_68232359" xml:lang="en">E'en when tempest oppresses</p>
+                     </incipText>
+                     <graphic label="" target="/dcm/assets/udgivelser/cnw/incipits/lowres/cnw_302.png"
+                              targettype="lowres"
+                              xml:id="graphic_177N2011B"/>
+                     <graphic label="" target="/dcm/assets/udgivelser/cnw/incipits/hires/cnw_302.png"
+                              targettype="hires"
+                              xml:id="graphic_177N20120"/>
+                  </incip>
+                  <tempo xml:id="tempo_6fad93b5">Ikke for langsomt</tempo>
+                  <meter count="6" unit="8" xml:id="meter_89449577"/>
+                  <history xml:id="history_177N20133">
+                     <eventList type="performances" xml:id="eventList_177N20141">
+                        <event xml:id="event_d1e354347">
+                           <date isodate=" 1916-10-03" xml:id="date_d869da93"> 1916-10-03</date>
+                           <geogName role="venue" xml:id="geogName_177N2014D">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_177N20151">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_177N20158">Anders Brems, singer</persName>
+                           <persName role="performer" xml:id="persName_177N2015C">Gerda Brems, piano</persName>
+                           <desc xml:id="desc_7dda74bb">First performance.</desc>
+                        </event>
+                        <event xml:id="event_45648081">
+                           <date isodate="1918-06-14" xml:id="date_9ed6e8f0">1918-06-14</date>
+                           <geogName role="venue" xml:id="geogName_d2bdcbe1">Tvoli Concert Hall (Tivolis Koncertsal)</geogName>
+                           <geogName role="place" xml:id="geogName_18cf005e">Copenhagen</geogName>
+                           <corpName role="ensemble" xml:id="corpName_fdcaa2d6">Tivoli Symphony Orchestra (Tivolis Symfoniorkester)</corpName>
+                           <persName role="performer" xml:id="persName_83873beb">Anders Brems, singer</persName>
+                           <persName role="conductor" xml:id="persName_4fae8877">Frederik Schnedler-Petersen</persName>
+                           <biblList xml:id="biblList_be5e0824">
+                              <head xml:id="head_e15f2d86">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_454fa6f2">
+                              <head xml:id="head_d45af48f">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_ed4f70d9">
+                           <date isodate="1918-11-07" xml:id="date_160e9f36">1918-11-07</date>
+                           <geogName role="venue" xml:id="geogName_9631faae">Auditorium</geogName>
+                           <geogName role="place" xml:id="geogName_7482a01c">Stockholm</geogName>
+                           <persName role="performer" xml:id="persName_fd384779">Anders Brems, singer</persName>
+                           <persName role="conductor" xml:id="persName_ebd9b34f">Carl Nielsen</persName>
+                           <biblList xml:id="biblList_60a5beec">
+                              <head xml:id="head_ffe9b679">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_3c2380f0">
+                              <head xml:id="head_6f70a8d9">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_2684b6d8">
+                           <date isodate="1918-11-23" xml:id="date_28d6c224">1918-11-23</date>
+                           <geogName role="venue" xml:id="geogName_83b6efad">Casinos Koncertsal</geogName>
+                           <geogName role="place" xml:id="geogName_79599c56">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_739c6452">Frederik Otto, singer</persName>
+                           <persName role="performer" xml:id="persName_f67a0a51">Anna Otto, piano</persName>
+                           <desc xml:id="desc_320c383b">Frederik Otto.</desc>
+                           <biblList xml:id="biblList_4bba78c1">
+                              <head xml:id="head_fa4a3f32">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_ed60673f">
+                              <head xml:id="head_db37f887">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_8f63ce0b">
+                           <date isodate="1919-08-08" xml:id="date_7b02616e">1919-08-08</date>
+                           <geogName role="venue" xml:id="geogName_6109dc90">Tivoli, Glassalen</geogName>
+                           <geogName role="place" xml:id="geogName_d9bc3d6d">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_d1704478">Frederik Otto, singer</persName>
+                           <persName role="performer" xml:id="persName_f3f8d005">Anna Otto, piano</persName>
+                           <biblList xml:id="biblList_498f4e4a">
+                              <head xml:id="head_5873e6b2">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_5f04ac39">
+                              <head xml:id="head_7c0d45b3">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_7a9b16d1">
+                           <date isodate="1920-10-28" xml:id="date_d45328ce">1920-10-28</date>
+                           <geogName role="venue" xml:id="geogName_95883e7d"/>
+                           <geogName role="place" xml:id="geogName_ebdcb43d">Helsingør</geogName>
+                           <persName role="performer" xml:id="persName_93dfa1b4">Anders Brems, singer</persName>
+                           <persName role="performer" xml:id="persName_09710c8a">Karen Kaas, piano</persName>
+                           <biblList xml:id="biblList_e80bbc30">
+                              <head xml:id="head_a1dd334d">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_0d9b618d">
+                              <head xml:id="head_331c9da5">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_3c599369">
+                           <date isodate="1922-12-09" xml:id="date_b65779e6">1922-12-09</date>
+                           <geogName role="venue" xml:id="geogName_702fd382">Beethoven-Saal</geogName>
+                           <geogName role="place" xml:id="geogName_bda97394">Berlin</geogName>
+                           <corpName role="ensemble" xml:id="corpName_e33821e9">Philharmonisches Orchester</corpName>
+                           <persName role="conductor" xml:id="persName_19c2c34e">Carl Nielsen</persName>
+                           <persName role="performer" xml:id="persName_8bcdf484">Ellen Overgaard, singer</persName>
+                           <biblList xml:id="biblList_fe0b90fe">
+                              <head xml:id="head_f8053a42">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_ea3cec52">
+                              <head xml:id="head_a72456ad">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_af974572">
+                           <date isodate="1923-02-25" xml:id="date_9c7ca928">1923-02-25</date>
+                           <geogName role="venue" xml:id="geogName_8e01b9ac">Odd Fellow Palæet</geogName>
+                           <geogName role="place" xml:id="geogName_2ca5b1c4">Copenhagen</geogName>
+                           <corpName role="ensemble" xml:id="corpName_0c94fbf8">Københavns Filharmoniske Orkester</corpName>
+                           <persName role="conductor" xml:id="persName_2c3c0038">Carl Nielsen</persName>
+                           <persName role="performer" xml:id="persName_1c875a34">Anders Brems, singer</persName>
+                           <biblList xml:id="biblList_8d68f1ff">
+                              <head xml:id="head_d3db4597">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_1155154a">
+                              <head xml:id="head_8ccc4e56">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_571c49ed">
+                           <date isodate="1925-06-11" xml:id="date_81a47d04">1925-06-11</date>
+                           <geogName role="venue" xml:id="geogName_e0c74750">Kjøbenhavns Radiofonistation</geogName>
+                           <geogName role="place" xml:id="geogName_c40eb1aa">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_e7344f47">Anders Brems, singer</persName>
+                           <persName role="performer" xml:id="persName_3fa1cc24">Folmer Jensen, piano</persName>
+                           <biblList xml:id="biblList_68f579ad">
+                              <head xml:id="head_cb8f86bb">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_9b675f90">
+                              <head xml:id="head_6ed212d6">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_2b663fb7">
+                           <date isodate="1929-07-13" xml:id="date_79ccf917">1929-07-13</date>
+                           <geogName role="venue" xml:id="geogName_582c9746">Axelborg</geogName>
+                           <geogName role="place" xml:id="geogName_5de91cf4">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_ce1d9ee0">Per Knudsen, singer</persName>
+                           <persName role="performer" xml:id="persName_22f23d1a">Folmer Jensen, piano</persName>
+                           <biblList xml:id="biblList_65d4a2f8">
+                              <head xml:id="head_cc73a75d">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_415969dd">
+                              <head xml:id="head_53e010e7">Evidence</head>
+                           </biblList>
+                        </event>
+                        <event xml:id="event_2aa9f623">
+                           <date isodate="1931-02-02" xml:id="date_b1ea17d6">1931-02-02</date>
+                           <geogName role="venue" xml:id="geogName_a7bfe391">Studentermusikforeningen</geogName>
+                           <geogName role="place" xml:id="geogName_e80395a0">Copenhagen</geogName>
+                           <persName role="performer" xml:id="persName_129f2fe1">Volmer Holbøll, singer</persName>
+                           <persName role="performer" xml:id="persName_341d1ffe">Victor Fischer, piano</persName>
+                           <biblList xml:id="biblList_01da3a64">
+                              <head xml:id="head_d2ccdf40">Reviews</head>
+                           </biblList>
+                           <biblList xml:id="biblList_bc6dc715">
+                              <head xml:id="head_0ab96116">Evidence</head>
+                           </biblList>
+                        </event>
+                     </eventList>
+                     <p xml:id="idm270"/>
+                  </history>
+                  <perfMedium analog="marc:048" xml:id="perfMedium_177N20163">
+                     <perfResList xml:id="perfResList_402af5e6">
+                        <perfRes codedval="vn" count="1" solo="false" xml:id="perfRes_177N2016A">voice</perfRes>
+                        <perfRes codedval="ka" count="1" solo="false" xml:id="perfRes_177N20171">pf.</perfRes>
+                     </perfResList>
+                  </perfMedium>
+                  <relationList xml:id="relationList_0cb65a03">
+                     <relation label="Carl Nielsen Edition" rel="hasReproduction"
+                               target="http://www.kb.dk/export/sites/kb_dk/da/nb/dcm/cnu/pdf/CNU_III_05_songs_2.pdf#page=139"
+                               targettype="edited_score"
+                               xml:id="relation_177N2017D"/>
+                  </relationList>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_edf8952b">
+               <relation label="Musik til Helge Rodes prolog &#34;Shakespeare&#34; (No. 4)"
+                         rel="isArrangementOf"
+                         target="cnw0015.xml"
+                         xml:id="relation_e054e9af"/>
+            </relationList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_4cea3f48">
+         <manifestation label="" xml:id="source_aa958c90">
+            <identifier label="" xml:id="identifier_78fa6153"/>
+            <titleStmt xml:id="titleStmt_4580b39d">
+               <title xml:id="title_840a52e7">Score, autograph, printer's manuscript</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_208be890"/>
+            <classification xml:id="classification_6c7d7cc0">
+               <termList xml:id="termList_bc085e5b">
+                  <term class="#DcmContentClass" xml:id="term_23f544aa">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_532fcfd7">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_47729108">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_7c788893">score</term>
+                  <term class="#DcmStateClass" xml:id="term_c939cf74">printer's copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_b1ad0b5a">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_12fc98ea">
+               <item label="" xml:id="item_86f5a87a">
+                  <identifier label="CNU Source" xml:id="identifier_7bce4785">B</identifier>
+                  <physLoc xml:id="physLoc_5b66246d">
+                     <repository xml:id="repository_25bace54">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_a32dd3db">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_7c105368">CNS 327d</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+         </manifestation>
+         <manifestation label="" xml:id="source_d1e40">
+            <identifier label="CNU Source" xml:id="identifier_991ef1a9">A</identifier>
+            <titleStmt xml:id="titleStmt_c89e88df">
+               <title xml:id="title_177N2005B">Score, print</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_f3675c1d">
+               <publisher xml:id="publisher_31e394a8">Wilhelm Hansen</publisher>
+               <pubPlace xml:id="pubPlace_177N20060">Copenhagen</pubPlace>
+               <date isodate="1916" xml:id="date_fbe52b61">1916</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_2eeab9fe">
+               <titlePage label="Title page" xml:id="titlePage_177N2006A">
+                  <p xml:id="idm67">Ariels Sang / AF PROLOGEN VED MINDEFESTEN FOR SHAKESPEARE 1916. / AF / Helge Rode / MUSIK / AF / Carl Nielsen. / FORLÆGGERENS  EJENDOM FOR ALLE LANDE / KJØBENHAVN &amp; LEIPZIG / WILHELM HANSEN, MUSIK-FORLAG / KRISTIANIA NORSK MUSIK-FORLAG / BRØDRENE HALS – WARMUTH – WILHELM HANSEN / STOCKHOLM / A.B. NORDISKA MUSIKFÖRLAGET / SCHOLANDER-WILHELM HANSEN / Copyright 1916 by Wilhelm Hansen, Leipzig. / II</p>
+               </titlePage>
+            </physDesc>
+            <classification xml:id="classification_f30ea7d9">
+               <termList xml:id="termList_1d15bf6e">
+                  <term class="#DcmContentClass" xml:id="term_0e576482">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_558e5cc5">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_3b19f387"/>
+                  <term class="#DcmScoringClass" xml:id="term_04e89734">score</term>
+                  <term class="#DcmStateClass" xml:id="term_79bcc12c">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_e556b13e">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_d684610b"/>
+            <relationList xml:id="relationList_30e3223a">
+               <relation label="" rel="isEmbodimentOf" target="#expression_1"
+                         xml:id="relation_177N2008C"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm279">
+         <change isodate="2012-01-05" xml:id="change_d1e423415">
+            <respStmt xml:id="respStmt_47e83dda">
+               <name xml:id="resp_7ded66eb">ebp</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_29f2a5c9">
+               <p xml:id="p_16da92bf">tab.1 </p>
+            </changeDesc>
+         </change>
+         <change isodate="2013-09-03" xml:id="change_172d1e200">
+            <respStmt xml:id="respStmt_6417461f">
+               <name xml:id="resp_814dbb92">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f712b1fc">
+               <p xml:id="p_a8b6e0d2">Automated conversion from MEI 2012 to MEI 2013</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-02-14" xml:id="change_177N201A9">
+            <respStmt xml:id="respStmt_0e2339f1">
+               <name xml:id="resp_f815c24a">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_55554f51">
+               <p xml:id="p_4eb2ff0b"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-03-14" xml:id="change_fedf0738">
+            <respStmt xml:id="respStmt_258d2892">
+               <name xml:id="resp_9cd46006">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_391a936d">
+               <p xml:id="p_783fd787"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-04-11" xml:id="change_5ed680af">
+            <respStmt xml:id="respStmt_6836d6e6">
+               <name xml:id="resp_5ce639ab">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8bcdc856">
+               <p xml:id="p_ba309e9a"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-05-26" xml:id="change_2d9d0800">
+            <respStmt xml:id="respStmt_6a52fc1e">
+               <name xml:id="resp_2dbb9ce6">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3dda47a3">
+               <p xml:id="p_6fda83c8"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-05-30" xml:id="change_d5b869cf">
+            <respStmt xml:id="respStmt_628dd7c2">
+               <name xml:id="resp_03482d14">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8461c459">
+               <p xml:id="p_a90ad601"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-06-04" xml:id="change_236N2024A">
+            <respStmt xml:id="respStmt_f34c4176">
+               <name xml:id="resp_8994f25f">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_9449a13c">
+               <p xml:id="p_023e3f51"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-06-06" xml:id="change_653c55b6">
+            <respStmt xml:id="respStmt_7a6c50e3">
+               <name xml:id="resp_9958254a">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d2b2c44b">
+               <p xml:id="p_c46948f8"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-06-20" xml:id="change_838c0037">
+            <respStmt xml:id="respStmt_c8c68270">
+               <name xml:id="resp_076e500a">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_1f55ac0f">
+               <p xml:id="p_f3767947"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-09-09" xml:id="change_247N20263">
+            <respStmt xml:id="respStmt_114b2572">
+               <name xml:id="resp_a1645323">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8d88395f">
+               <p xml:id="p_f55ab7f6"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-09-22" xml:id="change_246N20260">
+            <respStmt xml:id="respStmt_909e2b0c">
+               <name xml:id="resp_21aae1fc">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d0f3e356">
+               <p xml:id="p_7289b401"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-09-23" xml:id="change_244N2025C">
+            <respStmt xml:id="respStmt_73151d80">
+               <name xml:id="resp_b8178ea0">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f57ddb65">
+               <p xml:id="p_cb8142b4"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-09-30" xml:id="change_246N2025F">
+            <respStmt xml:id="respStmt_0b7ab045">
+               <name xml:id="resp_15178eaa">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_68947738">
+               <p xml:id="p_14d726f4"/>
+            </changeDesc>
+         </change>
+         <change isodate="2014-11-20" xml:id="change_246d1e261">
+            <respStmt xml:id="respStmt_4c5bcb89">
+               <name xml:id="resp_8fa5b95e">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2aa0bc2a">
+               <p xml:id="p_e97ab1fe">Batch transformation moving identifier/@type data to @label</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-11-20" xml:id="change_249d1e261">
+            <respStmt xml:id="respStmt_5e0d353d">
+               <name xml:id="resp_8224e559">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_35904391">
+               <p xml:id="p_ba981601">Batch transformation ensuring correct order of elements in source, work and biblList</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-11-20" xml:id="change_252d1e261">
+            <respStmt xml:id="respStmt_56261e69">
+               <name xml:id="resp_56bae06b">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_dece994a">
+               <p xml:id="p_9557365e">Batch transformation removing duplicate IDs and fixing other issues</p>
+            </changeDesc>
+         </change>
+         <change isodate="2014-12-12" xml:id="change_240d1e261">
+            <respStmt xml:id="respStmt_bf5ea6f5">
+               <name xml:id="resp_13055e3d">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_4c6339c5">
+               <p xml:id="p_98181865">removed indication of key</p>
+            </changeDesc>
+         </change>
+         <change isodate="2015-08-13" xml:id="change_5304e7e1">
+            <respStmt xml:id="respStmt_78441da8">
+               <name xml:id="resp_16cd985d">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_1d3000de">
+               <p xml:id="p_4f2b309a"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-09-15" xml:id="change_92d843b0">
+            <respStmt xml:id="respStmt_2cd0b9da">
+               <name xml:id="resp_f2f46b98">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d151a2f6">
+               <p xml:id="p_64bb325b"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_270idm140443410555728">
+            <respStmt xml:id="respStmt_4fd4156e">
+               <name xml:id="resp_081c5d9b">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_c32f65a8">
+               <p xml:id="p_162748ba">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_275d1e295">
+            <respStmt xml:id="respStmt_ea412979">
+               <name xml:id="resp_8122cee9">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_7e66a344">
+               <p xml:id="p_ec8769be">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-04-14" xml:id="change_277N102B0">
+            <respStmt xml:id="respStmt_64dacf6b">
+               <name xml:id="resp_c69948c7">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f9cd30d6">
+               <p xml:id="p_639de01a"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-05-13" xml:id="change_280N102B8">
+            <respStmt xml:id="respStmt_9c0d042c">
+               <name xml:id="resp_2a64f2c8">kaen</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_5a553510">
+               <p xml:id="p_8948a158"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-04" n="25" xml:id="change_810d710a">
+            <respStmt xml:id="respStmt_18ec116c">
+               <name xml:id="resp_39128479">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f19983c3">
+               <p xml:id="p_7a9fbaf6">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-05T18:03:34+01:00" xml:id="change_337N10204">
+            <respStmt xml:id="respStmt_8de2cf91">
+               <name xml:id="resp_71dad190">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b25b2174">
+               <p xml:id="p_889bb56c">Mail address updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-14T16:33:42+01:00" xml:id="change_340N101FF">
+            <respStmt xml:id="respStmt_773965b2">
+               <name xml:id="resp_9ff6f1f1">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_6fb709e3">
+               <p xml:id="p_804aca02">Batch transformation removing empty elements</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-04T09:46:20+01:00" xml:id="change_30798042fb4">
+            <respStmt xml:id="respStmt_307304dfd09">
+               <name xml:id="resp_ccd890c9">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_307b4e37a02">
+               <p xml:id="p_18589c5f">1 CNL references added automatically</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-01-18T13:29:34.834Z" xml:id="change_f4020026">
+            <respStmt xml:id="respStmt_3317b5c3">
+               <name xml:id="resp_fe1c4217">llue</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_e81372c7">
+               <p xml:id="p_9bceca47"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-01-24T11:32:49.565Z" xml:id="change_927f2052">
+            <respStmt xml:id="respStmt_4687a116">
+               <name xml:id="resp_f223589b">Llue</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_aaaa9f92">
+               <p xml:id="p_6d40823a"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-07T12:52:47.018Z" xml:id="change_5dd2983d">
+            <respStmt xml:id="respStmt_c0a1da8c">
+               <name xml:id="resp_39831b97">llue</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_c997a9ce">
+               <p xml:id="p_967ac7f8"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-06-24T08:35:43.481Z" xml:id="change_eb7e5ed8">
+            <respStmt xml:id="respStmt_49f11a0d">
+               <name xml:id="resp_6185ce84">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_167d4737">
+               <p xml:id="p_897fe2aa"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-10-10T08:08:14.389Z" xml:id="change_79398169">
+            <respStmt xml:id="respStmt_11e51de1">
+               <name xml:id="resp_4cd9d67d">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2116eae7">
+               <p xml:id="p_e5b3994b"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-06T09:34:51.787Z" xml:id="change_70b5a3e4">
+            <respStmt xml:id="respStmt_703ea100">
+               <name xml:id="resp_189f3b62">Llue</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3aea9365">
+               <p xml:id="p_eb4698c5"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T15:00:57Z" xml:id="change_418N1030F">
+            <respStmt xml:id="respStmt_22618804">
+               <name xml:id="resp_d06ee2cc">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_28c47510">
+               <p xml:id="p_425e2422">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-12-11T14:12:08.53Z" xml:id="change_b5cc5450">
+            <respStmt xml:id="respStmt_289d1754">
+               <name xml:id="resp_954480a4">llue</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_651ec45c">
+               <p xml:id="p_1870d97f"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-12-17T15:39:57.783Z" xml:id="change_9977ea09">
+            <respStmt xml:id="respStmt_78351c1c">
+               <name xml:id="resp_c58b148b">karj</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_932951ea">
+               <p xml:id="p_e669ffa4"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-12-18T08:38:10.234Z" xml:id="change_740347a3">
+            <respStmt xml:id="respStmt_9ba1dc32">
+               <name xml:id="resp_561969d6">llue</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_9ee2d898">
+               <p xml:id="p_081925ab"/>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_470d1e439">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_473d1e437">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_478d1e437">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm470"/>
+</mei>

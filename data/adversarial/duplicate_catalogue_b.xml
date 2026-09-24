@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Duplicate Catalogue Number Test B (should replace A)</title>
+        <respStmt>
+          <persName role="composer">Duplicate Test Composer</persName>
+        </respStmt>
+      </titleStmt>
+    </fileDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <work>
+          <identifier>DUP-001</identifier>
+        </work>
+      </mdiv>
+    </body>
+  </music>
+</mei>

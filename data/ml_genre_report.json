@@ -1,0 +1,162 @@
+{
+  "corpus_size": 1066,
+  "class_counts": {
+    "chamber_instrumental": 202,
+    "keyboard_organ": 91,
+    "orchestral_stage": 32,
+    "other": 5,
+    "vocal_choral": 736
+  },
+  "models": {
+    "logistic_regression": {
+      "cv_accuracy": 0.909,
+      "rule_baseline_accuracy": 0.7908,
+      "confusion_matrix": {
+        "classes": [
+          "chamber_instrumental",
+          "keyboard_organ",
+          "orchestral_stage",
+          "other",
+          "vocal_choral"
+        ],
+        "matrix": [
+          [
+            163,
+            0,
+            6,
+            0,
+            33
+          ],
+          [
+            0,
+            91,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            13,
+            0,
+            11
+          ],
+          [
+            3,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            23,
+            2,
+            9,
+            0,
+            702
+          ]
+        ]
+      }
+    },
+    "random_forest": {
+      "cv_accuracy": 0.8931,
+      "rule_baseline_accuracy": 0.7908,
+      "confusion_matrix": {
+        "classes": [
+          "chamber_instrumental",
+          "keyboard_organ",
+          "orchestral_stage",
+          "other",
+          "vocal_choral"
+        ],
+        "matrix": [
+          [
+            186,
+            0,
+            5,
+            3,
+            8
+          ],
+          [
+            0,
+            91,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            17,
+            0,
+            12
+          ],
+          [
+            1,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            73,
+            0,
+            8,
+            1,
+            654
+          ]
+        ]
+      }
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "instrument_count",
+      "importance": 0.2508
+    },
+    {
+      "feature": "movement_count",
+      "importance": 0.1928
+    },
+    {
+      "feature": "voice",
+      "importance": 0.1462
+    },
+    {
+      "feature": "other_instrument",
+      "importance": 0.0892
+    },
+    {
+      "feature": "piano",
+      "importance": 0.078
+    },
+    {
+      "feature": "brass",
+      "importance": 0.0652
+    },
+    {
+      "feature": "violin",
+      "importance": 0.0621
+    },
+    {
+      "feature": "cello",
+      "importance": 0.0428
+    },
+    {
+      "feature": "organ",
+      "importance": 0.0316
+    },
+    {
+      "feature": "woodwind",
+      "importance": 0.0238
+    },
+    {
+      "feature": "viola",
+      "importance": 0.0175
+    },
+    {
+      "feature": "double_bass",
+      "importance": 0.0
+    }
+  ]
+}

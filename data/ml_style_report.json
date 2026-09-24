@@ -1,0 +1,1655 @@
+{
+  "corpus_size": 1225,
+  "class_counts": {
+    "catalogue": 1036,
+    "notation": 189
+  },
+  "models": {
+    "logistic_regression": {
+      "cv_accuracy": 0.8416,
+      "confusion_matrix": {
+        "classes": [
+          "catalogue",
+          "notation"
+        ],
+        "matrix": [
+          [
+            1024,
+            12
+          ],
+          [
+            182,
+            7
+          ]
+        ]
+      },
+      "disagreements": [
+        {
+          "file": "bw_BRA1.Adagio-Allegro con brio.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_BRA2_Adagio.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_BRA3.Tempo di Menuetto.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_BRA4.Thema con variazioni-Andante_B.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_BRA5.Scherzo_Allegro molto e vivace_Es_ohneWdhl.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_BRA6_Andante con moto alla marcia_Es.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.120_old.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.120_Trompa_Encoding_Orig.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.120_work.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.121b_Klavierauszug.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.121b_Opferlied.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.122_Bundeslied.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.122_Klavierauszug.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.125_GA.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.134_GreatFugue_Piano.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.14.1_PianoSonata.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.14.1_StringQuartet.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.20_Septett.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Op.38_Trio.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Quintett.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "bw_Quintett_inParts.xml",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Aguado_Walzer_G-major.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Ahle_Jesu_meines_Herzens_Freud.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Altenburg_concerto_C_major.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Altenburg_Ein_feste_Burg.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Altenburg_Macht_auf_die_Tor.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_attribute_syl.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Bach-J-C_Fughette_Gmaj.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Bach-J-C_Fughette_No2.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Bach_BrandenburgConcert_No.4_I.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Bach_BrandenburgConcert_No.4_II.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Bach_Ein_festeBurg.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Bach_Herzliebster_Jesu.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Bach_Hilf_Herr_Jesu.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Bach_Musikalisches_Opfer_Trio.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Bach_Wie_bist_du_Seele.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Beethoven_Hymn_to_joy.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Beethoven_op.18.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Beethoven_Song_Op98.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Berlioz_Symphony_op25.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Borodin_StringTrio_g.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Brahms_StringQuartet_Op51_No1.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Brahms_WieMelodienZiehtEsMir.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Chopin_Etude_op.10_no.9.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Chopin_Mazurka.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Czerny_op603_6.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Czerny_StringQuartet_d.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Das_Veilchen_0Parameters.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Das_Veilchen_all_Parameters.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Das_Veilchen_artic_attribute.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Das_Veilchen_artic_element.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Das_Veilchen_keep_attributes.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Das_Veilchen_layout.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Debussy_Mandoline.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Echigo-Jishi.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Editorial_markup.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_element_syl.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Gluck_CheFaroSenzaEuridice.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Grieg_op.43_butterfly.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Grieg_op.43_little_bird.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Handel_Arie.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Handel_concerto_grosso.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Handel_Messias.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Haydn_StringQuartet_Op1_No1.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Hopkins_GatherRoundTheChristmasTree.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Hummel_Concerto_for_trumpet.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Hummel_op.67_No.11.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Ives_TheCage.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Joplin_Elite_Syncopations.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Joplin_Maple_leaf_Rag.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_JSB_BWV1047_2.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_JSB_BWV1047_3.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Kirnberger_FugeInEFlatMajor.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Krebs_Trio_Eb_2.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Layout_information.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Liszt_Four_little_pieces.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Lully_LaDescenteDeMars.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_lyrics.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Mahler_Song.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Marney_BreakThouTheBreadOfLife.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_McFerrin_Don't_worry.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Mozart_DasVeilchen.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Mozart_Fuge_G_minor.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Mozart_Quintett.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Mozart_Quintett_2013.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_multiple_sectionsI.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_multiple_sectionsII.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Opera.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Parker-Gillespie_ShawNuff.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_part_element.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Ponchielli_LarrivoDelRe.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Praetorius_PuerNobisNascitur.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Ravel_Le_tombeau.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Rimsky-Korsakov_StringQuartet_B.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Saint-Saens_LeCarnevalDesAnimmaux.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Scarlatti_Sonata_in_C_major.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Schubert_Erlk\u00f6nig.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Schumann_Landmann.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Schumann_Op.41.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Schumann_Song_Op48-1.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Schutz_DomineDeus.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Schutz_Jubilate_Deo.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Telemann_Concert.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Telemann_Suite.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Tschaikovsky_No.5_op.64.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Vivaldi_multiple_mdivs.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Weber_Arie.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei30_Webern_VariationsforPiano.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei40_Bach-JS_BrandenburgConcert_No2_I_BWV1047.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei40_Das_Veilchen_0Parameters.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei40_Das_Veilchen_all_Parameters.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei40_Das_Veilchen_artic_attribute.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei40_Das_Veilchen_artic_element.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei40_Das_Veilchen_keep_attributes.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei40_Das_Veilchen_layout.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei40_Krebs_Trio_for_2_pianos_c-minor.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei40_Pachelbel_Canon_in_D.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei40_Vivaldi_ViolinConcert_Op8_No2.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei50_Bach-JS_BrandenburgConcert_No2_I_BWV1047.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei50_Das_Veilchen_0Parameters.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei50_Das_Veilchen_all_Parameters.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei50_Das_Veilchen_artic_attribute.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei50_Das_Veilchen_artic_element.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei50_Das_Veilchen_keep_attributes.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei50_Das_Veilchen_layout.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei50_Krebs_Trio_for_2_pianos_c-minor.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei50_Pachelbel_Canon_in_D.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei50_Vivaldi_ViolinConcert_Op8_No2.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei51_Bach-JS_BrandenburgConcert_No2_I_BWV1047.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei51_Das_Veilchen_0Parameters.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei51_Das_Veilchen_all_Parameters.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei51_Das_Veilchen_artic_attribute.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei51_Das_Veilchen_artic_element.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei51_Das_Veilchen_keep_attributes.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei51_Das_Veilchen_layout.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "mei51_Krebs_Trio_for_2_pianos_c-minor.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei51_Pachelbel_Canon_in_D.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "mei51_Vivaldi_ViolinConcert_Op8_No2.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "SE_0_Aguado_Walzer_G-major.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_10_Bach_Herzliebster_Jesu.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_11_Bach_Hilf_Herr_Jesu.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_12_Bach_Musikalisches_Opfer_Trio.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_13_Bach_Wie_bist_du_Seele.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_14_Beethoven_Hymn_to_joy.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_15_Beethoven_op.18.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_16_Beethoven_Song_Op98.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_17_Berlioz_Symphony_op25.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_18_Borodin_StringTrio_g.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_19_Brahms_StringQuartet_Op51_No1.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_1_Ahle_Jesu_meines_Herzens_Freud.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_20_Brahms_WieMelodienZiehtEsMir.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_21_Chopin_Etude_op.10_no.9.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_22_Chopin_Etude_op.10_no.9_2013.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_23_Chopin_Mazurka.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_24_Czerny_op603_6.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_25_Czerny_StringQuartet_d.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_27_Debussy_Mandoline.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_28_Echigo-Jishi.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_29_Gluck_CheFaroSenzaEuridice.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_2_Altenburg_concerto_C_major.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_30_Grieg_op.43_butterfly.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_31_Grieg_op.43_little_bird.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_32_Handel_Arie.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_33_Handel_concerto_grosso.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_34_Handel_Messias.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_35_Haydn_StringQuartet_Op1_No1.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_36_Hopkins_GatherRoundTheChristmasTree.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_37_Hummel_Concerto_for_trumpet.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_38_Hummel_op.67_No.11.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_39_Ives_TheCage.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_3_Altenburg_Ein_feste_Burg.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_40_Joplin_Elite_Syncopations.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_41_Joplin_Maple_leaf_Rag.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_43_JSB_BWV1047_2.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_44_JSB_BWV1047_3.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_45_Kirnberger_FugeInEFlatMajor.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_46_Krebs_Trio_Eb_2.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_48_Liszt_Four_little_pieces.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_49_Lully_LaDescenteDeMars.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_4_Altenburg_Macht_auf_die_Tor.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_50_Mahler_Song.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_51_Marney_BreakThouTheBreadOfLife.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_52_McFerrin_Dont_worry.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_53_Mozart_DasVeilchen.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_54_Mozart_Fuge_G_minor.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_55_Mozart_Quintett.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_56_Mozart_Quintett_2013.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_58_Parker-Gillespie_ShawNuff.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_59_Ponchielli_LarrivoDelRe.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_5_Bach-J-C_Fughette_Gmaj.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_6_Bach-J-C_Fughette_No2.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_7_Bach_BrandenburgConcert_No.4_I.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_8_Bach_BrandenburgConcert_No.4_II.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        },
+        {
+          "file": "SE_9_Bach_Ein_festeBurg.mei",
+          "rule_label": "notation",
+          "model_prediction": "catalogue"
+        }
+      ],
+      "hand_label_validation": {
+        "note": "Accuracy against independently hand-checked labels (data/hand_labels.json), never used to train or fold the rule-based labels this model is also compared against. Answers 'is the model actually right', not just 'does it agree with the rule'.",
+        "n_checked": 44,
+        "accuracy": 0.3636,
+        "detail": [
+          {
+            "file": "22228421720417.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "bw_Op.120_old.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "cnw0012.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0027.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0033.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0149.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0159.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0210.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0245.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0261.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0295.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0296.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0332.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0347.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0378.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0407.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "CRIM_Mass_0002_3.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0010_1.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0010_4.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0010_5.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0014_4.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0017_5.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0020_3.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0024_5.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0025_4.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0032_5.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0042_1.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0044_1.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Model_0010.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "d6f46070-85df-4dda-b1f2-4e90530cf511.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "freidi_core_mov9.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei30_Das_Veilchen_artic_element.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei30_Gluck_CheFaroSenzaEuridice.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei30_Telemann_Suite.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei30_Vivaldi_multiple_mdivs.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei40_Altenburg_Ein_feste_Burg.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei40_Kirnberger_Fugue_for_BrassQuartet_Eb-major.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei50_Mozart_Fugue_g-minor_KV401.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei50_Telemann_Concert.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei51_Altenburg_Ein_feste_Burg.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei51_Handel_Concerto_grosso.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei51_Schubert_Erlkoenig.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "SE_26_Debussy_GolliwoggsCakewalk.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "SE_52_McFerrin_Dont_worry.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          }
+        ]
+      }
+    },
+    "random_forest": {
+      "cv_accuracy": 0.9984,
+      "confusion_matrix": {
+        "classes": [
+          "catalogue",
+          "notation"
+        ],
+        "matrix": [
+          [
+            1034,
+            2
+          ],
+          [
+            0,
+            189
+          ]
+        ]
+      },
+      "disagreements": [
+        {
+          "file": "bw_Op.125_work.xml",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        },
+        {
+          "file": "SE_26_Debussy_GolliwoggsCakewalk.mei",
+          "rule_label": "catalogue",
+          "model_prediction": "notation"
+        }
+      ],
+      "hand_label_validation": {
+        "note": "Accuracy against independently hand-checked labels (data/hand_labels.json), never used to train or fold the rule-based labels this model is also compared against. Answers 'is the model actually right', not just 'does it agree with the rule'.",
+        "n_checked": 44,
+        "accuracy": 0.5227,
+        "detail": [
+          {
+            "file": "22228421720417.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "bw_Op.120_old.xml",
+            "model_prediction": "notation",
+            "hand_label": "notation",
+            "correct": true
+          },
+          {
+            "file": "cnw0012.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0027.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0033.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0149.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0159.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0210.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0245.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0261.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0295.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0296.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0332.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0347.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0378.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "cnw0407.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "CRIM_Mass_0002_3.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0010_1.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0010_4.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0010_5.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0014_4.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0017_5.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0020_3.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0024_5.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0025_4.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0032_5.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0042_1.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Mass_0044_1.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "CRIM_Model_0010.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "d6f46070-85df-4dda-b1f2-4e90530cf511.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "catalogue",
+            "correct": true
+          },
+          {
+            "file": "freidi_core_mov9.xml",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei30_Das_Veilchen_artic_element.mei",
+            "model_prediction": "notation",
+            "hand_label": "notation",
+            "correct": true
+          },
+          {
+            "file": "mei30_Gluck_CheFaroSenzaEuridice.mei",
+            "model_prediction": "notation",
+            "hand_label": "notation",
+            "correct": true
+          },
+          {
+            "file": "mei30_Telemann_Suite.mei",
+            "model_prediction": "notation",
+            "hand_label": "notation",
+            "correct": true
+          },
+          {
+            "file": "mei30_Vivaldi_multiple_mdivs.mei",
+            "model_prediction": "notation",
+            "hand_label": "notation",
+            "correct": true
+          },
+          {
+            "file": "mei40_Altenburg_Ein_feste_Burg.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei40_Kirnberger_Fugue_for_BrassQuartet_Eb-major.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei50_Mozart_Fugue_g-minor_KV401.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei50_Telemann_Concert.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei51_Altenburg_Ein_feste_Burg.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei51_Handel_Concerto_grosso.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "mei51_Schubert_Erlkoenig.mei",
+            "model_prediction": "catalogue",
+            "hand_label": "notation",
+            "correct": false
+          },
+          {
+            "file": "SE_26_Debussy_GolliwoggsCakewalk.mei",
+            "model_prediction": "notation",
+            "hand_label": "notation",
+            "correct": true
+          },
+          {
+            "file": "SE_52_McFerrin_Dont_worry.mei",
+            "model_prediction": "notation",
+            "hand_label": "notation",
+            "correct": true
+          }
+        ]
+      }
+    }
+  },
+  "feature_importances": [
+    {
+      "element": "workList",
+      "importance": 0.4223
+    },
+    {
+      "element": "source",
+      "importance": 0.1159
+    },
+    {
+      "element": "instrVoice",
+      "importance": 0.0682
+    },
+    {
+      "element": "identifier",
+      "importance": 0.0534
+    },
+    {
+      "element": "note",
+      "importance": 0.0454
+    },
+    {
+      "element": "work",
+      "importance": 0.0397
+    },
+    {
+      "element": "mdiv",
+      "importance": 0.0369
+    },
+    {
+      "element": "title",
+      "importance": 0.032
+    },
+    {
+      "element": "classification",
+      "importance": 0.0267
+    },
+    {
+      "element": "measure",
+      "importance": 0.0261
+    },
+    {
+      "element": "scoreDef",
+      "importance": 0.0216
+    },
+    {
+      "element": "staff",
+      "importance": 0.0207
+    },
+    {
+      "element": "perfMedium",
+      "importance": 0.0184
+    },
+    {
+      "element": "layer",
+      "importance": 0.0163
+    },
+    {
+      "element": "annot",
+      "importance": 0.0159
+    },
+    {
+      "element": "persName",
+      "importance": 0.0132
+    },
+    {
+      "element": "expression",
+      "importance": 0.0132
+    },
+    {
+      "element": "creation",
+      "importance": 0.0079
+    },
+    {
+      "element": "physDesc",
+      "importance": 0.0043
+    },
+    {
+      "element": "eventList",
+      "importance": 0.0019
+    }
+  ]
+}
